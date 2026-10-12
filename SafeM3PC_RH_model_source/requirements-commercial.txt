@@ -1,0 +1,2 @@
+-r requirements-learning.txt
+gurobipy>=13.0,<14.0

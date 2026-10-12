@@ -1,0 +1,7314 @@
+{
+  "schema_version": 1,
+  "source_path": "E:\\新建文件夹 (2)\\codex实验\\通过能力计算研究\\hsr_ttr_project\\data\\public_hsr\\high-speed trains operation data.csv",
+  "source_member": "high-speed trains operation data.csv",
+  "corridor": [
+    "JW",
+    "TA",
+    "QFE",
+    "TZE",
+    "ZZ",
+    "XZE",
+    "SZE",
+    "BBS",
+    "DY",
+    "CZ",
+    "NJS"
+  ],
+  "corridor_full_names": [
+    "Jinanxi Railway Station",
+    "Taian Railway Station",
+    "Qufudong Railway Station",
+    "Tengzhoudong Railway Station",
+    "Zaozhuang Railway Station",
+    "Xuzhoudong Railway Station",
+    "Suzhoudong Railway Station",
+    "Bengbunan Railway Station",
+    "Dingyuan Railway Station",
+    "Chuzhou Railway Station",
+    "Nanjingnan Railway Station"
+  ],
+  "disruption_section": "BBSDY",
+  "disruption_start": 130,
+  "selection_rule": "all down-direction trains with an interpolated planned BD entry between 09:10 and 15:00",
+  "macros": [
+    {
+      "macro_id": "M01",
+      "date": "2020-01-13",
+      "density_class": "low",
+      "train_count": 15,
+      "trains": [
+        {
+          "train_id": "G7619",
+          "planned_entry_bd": 152.25742574257424,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 151,
+            "SZE": 132,
+            "XZE": 113,
+            "ZZ": 99,
+            "TZE": 90,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 163,
+            "CZ": 177,
+            "NJS": 192
+          },
+          "planned_departure": {
+            "BBS": 152,
+            "SZE": 135,
+            "XZE": 116,
+            "ZZ": 100,
+            "TZE": 91,
+            "QFE": 78,
+            "TA": 62,
+            "JW": 52,
+            "DY": 164,
+            "CZ": 180,
+            "NJS": 192
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 1
+        },
+        {
+          "train_id": "G343",
+          "planned_entry_bd": 157.74377224199287,
+          "recorded_station_codes": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 157,
+            "SZE": 138,
+            "XZE": 119,
+            "ZZ": 103,
+            "TZE": 92,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 169,
+            "CZ": 183,
+            "NJS": 196
+          },
+          "planned_departure": {
+            "BBS": 158,
+            "SZE": 141,
+            "XZE": 122,
+            "ZZ": 106,
+            "TZE": 95,
+            "QFE": 80,
+            "TA": 62,
+            "JW": 52,
+            "DY": 170,
+            "CZ": 184,
+            "NJS": 196
+          },
+          "planned_stops": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 2
+        },
+        {
+          "train_id": "G7299",
+          "planned_entry_bd": 171.54950495049505,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 171,
+            "SZE": 152,
+            "XZE": 133,
+            "ZZ": 119,
+            "TZE": 110,
+            "QFE": 97,
+            "TA": 81,
+            "JW": 72,
+            "DY": 183,
+            "CZ": 197,
+            "NJS": 212
+          },
+          "planned_departure": {
+            "BBS": 172,
+            "SZE": 155,
+            "XZE": 136,
+            "ZZ": 120,
+            "TZE": 111,
+            "QFE": 98,
+            "TA": 82,
+            "JW": 72,
+            "DY": 184,
+            "CZ": 200,
+            "NJS": 212
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 3
+        },
+        {
+          "train_id": "G415",
+          "planned_entry_bd": 194.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 194,
+            "SZE": 177,
+            "XZE": 158,
+            "ZZ": 142,
+            "TZE": 133,
+            "QFE": 120,
+            "TA": 104,
+            "JW": 95,
+            "DY": 206,
+            "CZ": 220,
+            "NJS": 233
+          },
+          "planned_departure": {
+            "BBS": 195,
+            "SZE": 178,
+            "XZE": 161,
+            "ZZ": 145,
+            "TZE": 134,
+            "QFE": 121,
+            "TA": 105,
+            "JW": 95,
+            "DY": 207,
+            "CZ": 221,
+            "NJS": 233
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 4
+        },
+        {
+          "train_id": "G101",
+          "planned_entry_bd": 212.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 212,
+            "SZE": 193,
+            "XZE": 176,
+            "ZZ": 160,
+            "TZE": 151,
+            "QFE": 136,
+            "TA": 120,
+            "JW": 111,
+            "DY": 224,
+            "CZ": 238,
+            "NJS": 251
+          },
+          "planned_departure": {
+            "BBS": 213,
+            "SZE": 196,
+            "XZE": 177,
+            "ZZ": 163,
+            "TZE": 152,
+            "QFE": 139,
+            "TA": 121,
+            "JW": 111,
+            "DY": 225,
+            "CZ": 239,
+            "NJS": 251
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "SZE"
+          ],
+          "original_order": 5
+        },
+        {
+          "train_id": "G143",
+          "planned_entry_bd": 253.38485804416405,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 252,
+            "SZE": 235,
+            "XZE": 218,
+            "ZZ": 204,
+            "TZE": 195,
+            "QFE": 182,
+            "TA": 166,
+            "JW": 157,
+            "DY": 264,
+            "CZ": 278,
+            "NJS": 291
+          },
+          "planned_departure": {
+            "BBS": 253,
+            "SZE": 236,
+            "XZE": 219,
+            "ZZ": 205,
+            "TZE": 196,
+            "QFE": 183,
+            "TA": 167,
+            "JW": 157,
+            "DY": 265,
+            "CZ": 279,
+            "NJS": 291
+          },
+          "planned_stops": [],
+          "original_order": 6
+        },
+        {
+          "train_id": "G165",
+          "planned_entry_bd": 277.9968454258675,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 277,
+            "SZE": 260,
+            "XZE": 243,
+            "ZZ": 229,
+            "TZE": 220,
+            "QFE": 207,
+            "TA": 191,
+            "JW": 182,
+            "DY": 289,
+            "CZ": 303,
+            "NJS": 316
+          },
+          "planned_departure": {
+            "BBS": 278,
+            "SZE": 261,
+            "XZE": 244,
+            "ZZ": 230,
+            "TZE": 221,
+            "QFE": 208,
+            "TA": 192,
+            "JW": 182,
+            "DY": 290,
+            "CZ": 304,
+            "NJS": 316
+          },
+          "planned_stops": [],
+          "original_order": 7
+        },
+        {
+          "train_id": "G441",
+          "planned_entry_bd": 313.9942857142857,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 313,
+            "SZE": 296,
+            "XZE": 277,
+            "ZZ": 261,
+            "TZE": 252,
+            "QFE": 239,
+            "TA": 223,
+            "JW": 214,
+            "DY": 325,
+            "CZ": 339,
+            "NJS": 352
+          },
+          "planned_departure": {
+            "BBS": 314,
+            "SZE": 297,
+            "XZE": 280,
+            "ZZ": 264,
+            "TZE": 253,
+            "QFE": 240,
+            "TA": 224,
+            "JW": 214,
+            "DY": 326,
+            "CZ": 340,
+            "NJS": 352
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 8
+        },
+        {
+          "train_id": "G211",
+          "planned_entry_bd": 330.2792079207921,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 329,
+            "SZE": 312,
+            "XZE": 295,
+            "ZZ": 281,
+            "TZE": 272,
+            "QFE": 257,
+            "TA": 241,
+            "JW": 232,
+            "DY": 341,
+            "CZ": 355,
+            "NJS": 368
+          },
+          "planned_departure": {
+            "BBS": 330,
+            "SZE": 313,
+            "XZE": 296,
+            "ZZ": 282,
+            "TZE": 273,
+            "QFE": 260,
+            "TA": 242,
+            "JW": 232,
+            "DY": 342,
+            "CZ": 356,
+            "NJS": 368
+          },
+          "planned_stops": [
+            "QFE"
+          ],
+          "original_order": 9
+        },
+        {
+          "train_id": "G1813",
+          "planned_entry_bd": 368.2669039145907,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 367,
+            "SZE": 348,
+            "XZE": 329,
+            "ZZ": 315,
+            "TZE": 306,
+            "QFE": 293,
+            "TA": 277,
+            "JW": 268,
+            "DY": 379,
+            "CZ": 393,
+            "NJS": 406
+          },
+          "planned_departure": {
+            "BBS": 368,
+            "SZE": 351,
+            "XZE": 332,
+            "ZZ": 316,
+            "TZE": 307,
+            "QFE": 294,
+            "TA": 278,
+            "JW": 268,
+            "DY": 380,
+            "CZ": 394,
+            "NJS": 406
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 10
+        },
+        {
+          "train_id": "G445",
+          "planned_entry_bd": 388.12857142857143,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "DY",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 387,
+            "SZE": 368,
+            "XZE": 349,
+            "ZZ": 333,
+            "TZE": 324,
+            "QFE": 309,
+            "TA": 291,
+            "JW": 282,
+            "DY": 399,
+            "CZ": 415,
+            "NJS": 430
+          },
+          "planned_departure": {
+            "BBS": 388,
+            "SZE": 371,
+            "XZE": 352,
+            "ZZ": 336,
+            "TZE": 325,
+            "QFE": 312,
+            "TA": 294,
+            "JW": 282,
+            "DY": 402,
+            "CZ": 418,
+            "NJS": 430
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "DY",
+            "CZ"
+          ],
+          "original_order": 11
+        },
+        {
+          "train_id": "G213",
+          "planned_entry_bd": 425.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 425,
+            "SZE": 408,
+            "XZE": 389,
+            "ZZ": 375,
+            "TZE": 364,
+            "QFE": 351,
+            "TA": 333,
+            "JW": 324,
+            "DY": 437,
+            "CZ": 451,
+            "NJS": 464
+          },
+          "planned_departure": {
+            "BBS": 426,
+            "SZE": 409,
+            "XZE": 392,
+            "ZZ": 376,
+            "TZE": 367,
+            "QFE": 352,
+            "TA": 336,
+            "JW": 324,
+            "DY": 438,
+            "CZ": 452,
+            "NJS": 464
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 12
+        },
+        {
+          "train_id": "G123",
+          "planned_entry_bd": 451.13317191283295,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 450,
+            "SZE": 433,
+            "XZE": 416,
+            "ZZ": 400,
+            "TZE": 391,
+            "QFE": 378,
+            "TA": 362,
+            "JW": 353,
+            "DY": 462,
+            "CZ": 476,
+            "NJS": 489
+          },
+          "planned_departure": {
+            "BBS": 451,
+            "SZE": 434,
+            "XZE": 417,
+            "ZZ": 403,
+            "TZE": 392,
+            "QFE": 379,
+            "TA": 363,
+            "JW": 353,
+            "DY": 463,
+            "CZ": 477,
+            "NJS": 489
+          },
+          "planned_stops": [
+            "ZZ"
+          ],
+          "original_order": 13
+        },
+        {
+          "train_id": "G125",
+          "planned_entry_bd": 464.24257425742576,
+          "recorded_station_codes": [
+            "JW",
+            "TZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 463,
+            "SZE": 444,
+            "XZE": 427,
+            "ZZ": 413,
+            "TZE": 402,
+            "QFE": 389,
+            "TA": 373,
+            "JW": 364,
+            "DY": 475,
+            "CZ": 489,
+            "NJS": 504
+          },
+          "planned_departure": {
+            "BBS": 464,
+            "SZE": 447,
+            "XZE": 428,
+            "ZZ": 414,
+            "TZE": 405,
+            "QFE": 390,
+            "TA": 374,
+            "JW": 364,
+            "DY": 476,
+            "CZ": 492,
+            "NJS": 504
+          },
+          "planned_stops": [
+            "TZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 14
+        },
+        {
+          "train_id": "G163",
+          "planned_entry_bd": 474.8708487084871,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 474,
+            "SZE": 457,
+            "XZE": 438,
+            "ZZ": 424,
+            "TZE": 415,
+            "QFE": 400,
+            "TA": 382,
+            "JW": 373,
+            "DY": 486,
+            "CZ": 500,
+            "NJS": 515
+          },
+          "planned_departure": {
+            "BBS": 475,
+            "SZE": 458,
+            "XZE": 441,
+            "ZZ": 425,
+            "TZE": 416,
+            "QFE": 403,
+            "TA": 385,
+            "JW": 373,
+            "DY": 487,
+            "CZ": 503,
+            "NJS": 515
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 15
+        }
+      ]
+    },
+    {
+      "macro_id": "M02",
+      "date": "2020-01-25",
+      "density_class": "low-medium",
+      "train_count": 25,
+      "trains": [
+        {
+          "train_id": "G7619",
+          "planned_entry_bd": 152.25742574257424,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 151,
+            "SZE": 132,
+            "XZE": 113,
+            "ZZ": 99,
+            "TZE": 90,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 163,
+            "CZ": 177,
+            "NJS": 192
+          },
+          "planned_departure": {
+            "BBS": 152,
+            "SZE": 135,
+            "XZE": 116,
+            "ZZ": 100,
+            "TZE": 91,
+            "QFE": 78,
+            "TA": 62,
+            "JW": 52,
+            "DY": 164,
+            "CZ": 180,
+            "NJS": 192
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 1
+        },
+        {
+          "train_id": "G343",
+          "planned_entry_bd": 157.74377224199287,
+          "recorded_station_codes": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 157,
+            "SZE": 138,
+            "XZE": 119,
+            "ZZ": 103,
+            "TZE": 92,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 169,
+            "CZ": 183,
+            "NJS": 196
+          },
+          "planned_departure": {
+            "BBS": 158,
+            "SZE": 141,
+            "XZE": 122,
+            "ZZ": 106,
+            "TZE": 95,
+            "QFE": 80,
+            "TA": 62,
+            "JW": 52,
+            "DY": 170,
+            "CZ": 184,
+            "NJS": 196
+          },
+          "planned_stops": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 2
+        },
+        {
+          "train_id": "G7299",
+          "planned_entry_bd": 171.54950495049505,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 171,
+            "SZE": 152,
+            "XZE": 133,
+            "ZZ": 119,
+            "TZE": 110,
+            "QFE": 97,
+            "TA": 81,
+            "JW": 72,
+            "DY": 183,
+            "CZ": 197,
+            "NJS": 212
+          },
+          "planned_departure": {
+            "BBS": 172,
+            "SZE": 155,
+            "XZE": 136,
+            "ZZ": 120,
+            "TZE": 111,
+            "QFE": 98,
+            "TA": 82,
+            "JW": 72,
+            "DY": 184,
+            "CZ": 200,
+            "NJS": 212
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 3
+        },
+        {
+          "train_id": "G51",
+          "planned_entry_bd": 205.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 205,
+            "SZE": 188,
+            "XZE": 169,
+            "ZZ": 155,
+            "TZE": 144,
+            "QFE": 131,
+            "TA": 113,
+            "JW": 104,
+            "DY": 217,
+            "CZ": 231,
+            "NJS": 244
+          },
+          "planned_departure": {
+            "BBS": 206,
+            "SZE": 189,
+            "XZE": 172,
+            "ZZ": 156,
+            "TZE": 147,
+            "QFE": 132,
+            "TA": 116,
+            "JW": 104,
+            "DY": 218,
+            "CZ": 232,
+            "NJS": 244
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 4
+        },
+        {
+          "train_id": "G101",
+          "planned_entry_bd": 212.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 212,
+            "SZE": 193,
+            "XZE": 176,
+            "ZZ": 160,
+            "TZE": 151,
+            "QFE": 136,
+            "TA": 120,
+            "JW": 111,
+            "DY": 224,
+            "CZ": 238,
+            "NJS": 251
+          },
+          "planned_departure": {
+            "BBS": 213,
+            "SZE": 196,
+            "XZE": 177,
+            "ZZ": 163,
+            "TZE": 152,
+            "QFE": 139,
+            "TA": 121,
+            "JW": 111,
+            "DY": 225,
+            "CZ": 239,
+            "NJS": 251
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "SZE"
+          ],
+          "original_order": 5
+        },
+        {
+          "train_id": "G19",
+          "planned_entry_bd": 227.28075709779182,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 226,
+            "SZE": 209,
+            "XZE": 192,
+            "ZZ": 178,
+            "TZE": 169,
+            "QFE": 156,
+            "TA": 140,
+            "JW": 131,
+            "DY": 238,
+            "CZ": 252,
+            "NJS": 265
+          },
+          "planned_departure": {
+            "BBS": 227,
+            "SZE": 210,
+            "XZE": 193,
+            "ZZ": 179,
+            "TZE": 170,
+            "QFE": 157,
+            "TA": 141,
+            "JW": 131,
+            "DY": 239,
+            "CZ": 253,
+            "NJS": 265
+          },
+          "planned_stops": [],
+          "original_order": 6
+        },
+        {
+          "train_id": "G57",
+          "planned_entry_bd": 244.8861209964413,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 244,
+            "SZE": 225,
+            "XZE": 206,
+            "ZZ": 190,
+            "TZE": 181,
+            "QFE": 168,
+            "TA": 152,
+            "JW": 143,
+            "DY": 256,
+            "CZ": 270,
+            "NJS": 283
+          },
+          "planned_departure": {
+            "BBS": 245,
+            "SZE": 228,
+            "XZE": 209,
+            "ZZ": 193,
+            "TZE": 182,
+            "QFE": 169,
+            "TA": 153,
+            "JW": 143,
+            "DY": 257,
+            "CZ": 271,
+            "NJS": 283
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 7
+        },
+        {
+          "train_id": "G105",
+          "planned_entry_bd": 249.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 249,
+            "SZE": 230,
+            "XZE": 211,
+            "ZZ": 195,
+            "TZE": 186,
+            "QFE": 173,
+            "TA": 157,
+            "JW": 148,
+            "DY": 261,
+            "CZ": 275,
+            "NJS": 288
+          },
+          "planned_departure": {
+            "BBS": 250,
+            "SZE": 233,
+            "XZE": 214,
+            "ZZ": 198,
+            "TZE": 187,
+            "QFE": 174,
+            "TA": 158,
+            "JW": 148,
+            "DY": 262,
+            "CZ": 276,
+            "NJS": 288
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 8
+        },
+        {
+          "train_id": "G143",
+          "planned_entry_bd": 253.38485804416405,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 252,
+            "SZE": 235,
+            "XZE": 218,
+            "ZZ": 204,
+            "TZE": 195,
+            "QFE": 182,
+            "TA": 166,
+            "JW": 157,
+            "DY": 264,
+            "CZ": 278,
+            "NJS": 291
+          },
+          "planned_departure": {
+            "BBS": 253,
+            "SZE": 236,
+            "XZE": 219,
+            "ZZ": 205,
+            "TZE": 196,
+            "QFE": 183,
+            "TA": 167,
+            "JW": 157,
+            "DY": 265,
+            "CZ": 279,
+            "NJS": 291
+          },
+          "planned_stops": [],
+          "original_order": 9
+        },
+        {
+          "train_id": "G165",
+          "planned_entry_bd": 277.9968454258675,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 277,
+            "SZE": 260,
+            "XZE": 243,
+            "ZZ": 229,
+            "TZE": 220,
+            "QFE": 207,
+            "TA": 191,
+            "JW": 182,
+            "DY": 289,
+            "CZ": 303,
+            "NJS": 316
+          },
+          "planned_departure": {
+            "BBS": 278,
+            "SZE": 261,
+            "XZE": 244,
+            "ZZ": 230,
+            "TZE": 221,
+            "QFE": 208,
+            "TA": 192,
+            "JW": 182,
+            "DY": 290,
+            "CZ": 304,
+            "NJS": 316
+          },
+          "planned_stops": [],
+          "original_order": 10
+        },
+        {
+          "train_id": "G1",
+          "planned_entry_bd": 287.2807570977918,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 286,
+            "SZE": 269,
+            "XZE": 252,
+            "ZZ": 238,
+            "TZE": 229,
+            "QFE": 216,
+            "TA": 200,
+            "JW": 191,
+            "DY": 298,
+            "CZ": 312,
+            "NJS": 325
+          },
+          "planned_departure": {
+            "BBS": 287,
+            "SZE": 270,
+            "XZE": 253,
+            "ZZ": 239,
+            "TZE": 230,
+            "QFE": 217,
+            "TA": 201,
+            "JW": 191,
+            "DY": 299,
+            "CZ": 313,
+            "NJS": 325
+          },
+          "planned_stops": [],
+          "original_order": 11
+        },
+        {
+          "train_id": "G55",
+          "planned_entry_bd": 296.690036900369,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 296,
+            "SZE": 279,
+            "XZE": 260,
+            "ZZ": 244,
+            "TZE": 235,
+            "QFE": 222,
+            "TA": 206,
+            "JW": 197,
+            "DY": 308,
+            "CZ": 322,
+            "NJS": 337
+          },
+          "planned_departure": {
+            "BBS": 297,
+            "SZE": 280,
+            "XZE": 263,
+            "ZZ": 247,
+            "TZE": 236,
+            "QFE": 223,
+            "TA": 207,
+            "JW": 197,
+            "DY": 309,
+            "CZ": 325,
+            "NJS": 337
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 12
+        },
+        {
+          "train_id": "G113",
+          "planned_entry_bd": 325.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 325,
+            "SZE": 308,
+            "XZE": 289,
+            "ZZ": 275,
+            "TZE": 266,
+            "QFE": 253,
+            "TA": 237,
+            "JW": 228,
+            "DY": 337,
+            "CZ": 351,
+            "NJS": 364
+          },
+          "planned_departure": {
+            "BBS": 326,
+            "SZE": 309,
+            "XZE": 292,
+            "ZZ": 276,
+            "TZE": 267,
+            "QFE": 254,
+            "TA": 238,
+            "JW": 228,
+            "DY": 338,
+            "CZ": 352,
+            "NJS": 364
+          },
+          "planned_stops": [
+            "XZE"
+          ],
+          "original_order": 13
+        },
+        {
+          "train_id": "G211",
+          "planned_entry_bd": 330.2792079207921,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 329,
+            "SZE": 312,
+            "XZE": 295,
+            "ZZ": 281,
+            "TZE": 272,
+            "QFE": 257,
+            "TA": 241,
+            "JW": 232,
+            "DY": 341,
+            "CZ": 355,
+            "NJS": 368
+          },
+          "planned_departure": {
+            "BBS": 330,
+            "SZE": 313,
+            "XZE": 296,
+            "ZZ": 282,
+            "TZE": 273,
+            "QFE": 260,
+            "TA": 242,
+            "JW": 232,
+            "DY": 342,
+            "CZ": 356,
+            "NJS": 368
+          },
+          "planned_stops": [
+            "QFE"
+          ],
+          "original_order": 14
+        },
+        {
+          "train_id": "G41",
+          "planned_entry_bd": 344.46434782608696,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 343,
+            "SZE": 326,
+            "XZE": 309,
+            "ZZ": 295,
+            "TZE": 286,
+            "QFE": 273,
+            "TA": 255,
+            "JW": 246,
+            "DY": 355,
+            "CZ": 369,
+            "NJS": 382
+          },
+          "planned_departure": {
+            "BBS": 344,
+            "SZE": 327,
+            "XZE": 310,
+            "ZZ": 296,
+            "TZE": 287,
+            "QFE": 274,
+            "TA": 258,
+            "JW": 246,
+            "DY": 356,
+            "CZ": 370,
+            "NJS": 382
+          },
+          "planned_stops": [
+            "TA"
+          ],
+          "original_order": 15
+        },
+        {
+          "train_id": "G7",
+          "planned_entry_bd": 346.58675078864354,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 346,
+            "SZE": 329,
+            "XZE": 312,
+            "ZZ": 298,
+            "TZE": 289,
+            "QFE": 276,
+            "TA": 260,
+            "JW": 251,
+            "DY": 358,
+            "CZ": 372,
+            "NJS": 385
+          },
+          "planned_departure": {
+            "BBS": 347,
+            "SZE": 330,
+            "XZE": 313,
+            "ZZ": 299,
+            "TZE": 290,
+            "QFE": 277,
+            "TA": 261,
+            "JW": 251,
+            "DY": 359,
+            "CZ": 373,
+            "NJS": 385
+          },
+          "planned_stops": [],
+          "original_order": 16
+        },
+        {
+          "train_id": "G117",
+          "planned_entry_bd": 378.52095808383234,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 378,
+            "SZE": 361,
+            "XZE": 344,
+            "ZZ": 328,
+            "TZE": 319,
+            "QFE": 306,
+            "TA": 290,
+            "JW": 281,
+            "DY": 390,
+            "CZ": 404,
+            "NJS": 419
+          },
+          "planned_departure": {
+            "BBS": 379,
+            "SZE": 362,
+            "XZE": 345,
+            "ZZ": 331,
+            "TZE": 320,
+            "QFE": 307,
+            "TA": 291,
+            "JW": 281,
+            "DY": 391,
+            "CZ": 407,
+            "NJS": 419
+          },
+          "planned_stops": [
+            "ZZ",
+            "CZ"
+          ],
+          "original_order": 17
+        },
+        {
+          "train_id": "G445",
+          "planned_entry_bd": 388.12857142857143,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "DY",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 387,
+            "SZE": 368,
+            "XZE": 349,
+            "ZZ": 333,
+            "TZE": 324,
+            "QFE": 309,
+            "TA": 291,
+            "JW": 282,
+            "DY": 399,
+            "CZ": 415,
+            "NJS": 430
+          },
+          "planned_departure": {
+            "BBS": 388,
+            "SZE": 371,
+            "XZE": 352,
+            "ZZ": 336,
+            "TZE": 325,
+            "QFE": 312,
+            "TA": 294,
+            "JW": 282,
+            "DY": 402,
+            "CZ": 418,
+            "NJS": 430
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "DY",
+            "CZ"
+          ],
+          "original_order": 18
+        },
+        {
+          "train_id": "G33",
+          "planned_entry_bd": 394.88612099644126,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 394,
+            "SZE": 375,
+            "XZE": 356,
+            "ZZ": 342,
+            "TZE": 333,
+            "QFE": 318,
+            "TA": 302,
+            "JW": 293,
+            "DY": 406,
+            "CZ": 420,
+            "NJS": 433
+          },
+          "planned_departure": {
+            "BBS": 395,
+            "SZE": 378,
+            "XZE": 359,
+            "ZZ": 343,
+            "TZE": 334,
+            "QFE": 321,
+            "TA": 303,
+            "JW": 293,
+            "DY": 407,
+            "CZ": 421,
+            "NJS": 433
+          },
+          "planned_stops": [
+            "QFE",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 19
+        },
+        {
+          "train_id": "G119",
+          "planned_entry_bd": 402.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 402,
+            "SZE": 385,
+            "XZE": 366,
+            "ZZ": 350,
+            "TZE": 341,
+            "QFE": 326,
+            "TA": 310,
+            "JW": 301,
+            "DY": 414,
+            "CZ": 428,
+            "NJS": 441
+          },
+          "planned_departure": {
+            "BBS": 403,
+            "SZE": 386,
+            "XZE": 369,
+            "ZZ": 353,
+            "TZE": 342,
+            "QFE": 329,
+            "TA": 311,
+            "JW": 301,
+            "DY": 415,
+            "CZ": 429,
+            "NJS": 441
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 20
+        },
+        {
+          "train_id": "G31",
+          "planned_entry_bd": 413.30857142857144,
+          "recorded_station_codes": [
+            "JW",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 412,
+            "SZE": 395,
+            "XZE": 376,
+            "ZZ": 362,
+            "TZE": 353,
+            "QFE": 340,
+            "TA": 324,
+            "JW": 315,
+            "DY": 424,
+            "CZ": 438,
+            "NJS": 451
+          },
+          "planned_departure": {
+            "BBS": 413,
+            "SZE": 396,
+            "XZE": 379,
+            "ZZ": 363,
+            "TZE": 354,
+            "QFE": 341,
+            "TA": 325,
+            "JW": 315,
+            "DY": 425,
+            "CZ": 439,
+            "NJS": 451
+          },
+          "planned_stops": [
+            "XZE"
+          ],
+          "original_order": 21
+        },
+        {
+          "train_id": "G213",
+          "planned_entry_bd": 425.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 425,
+            "SZE": 408,
+            "XZE": 389,
+            "ZZ": 375,
+            "TZE": 364,
+            "QFE": 351,
+            "TA": 333,
+            "JW": 324,
+            "DY": 437,
+            "CZ": 451,
+            "NJS": 464
+          },
+          "planned_departure": {
+            "BBS": 426,
+            "SZE": 409,
+            "XZE": 392,
+            "ZZ": 376,
+            "TZE": 367,
+            "QFE": 352,
+            "TA": 336,
+            "JW": 324,
+            "DY": 438,
+            "CZ": 452,
+            "NJS": 464
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 22
+        },
+        {
+          "train_id": "G123",
+          "planned_entry_bd": 451.13317191283295,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 450,
+            "SZE": 433,
+            "XZE": 416,
+            "ZZ": 400,
+            "TZE": 391,
+            "QFE": 378,
+            "TA": 362,
+            "JW": 353,
+            "DY": 462,
+            "CZ": 476,
+            "NJS": 489
+          },
+          "planned_departure": {
+            "BBS": 451,
+            "SZE": 434,
+            "XZE": 417,
+            "ZZ": 403,
+            "TZE": 392,
+            "QFE": 379,
+            "TA": 363,
+            "JW": 353,
+            "DY": 463,
+            "CZ": 477,
+            "NJS": 489
+          },
+          "planned_stops": [
+            "ZZ"
+          ],
+          "original_order": 23
+        },
+        {
+          "train_id": "G9",
+          "planned_entry_bd": 473.89274447949526,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 473,
+            "SZE": 456,
+            "XZE": 439,
+            "ZZ": 425,
+            "TZE": 416,
+            "QFE": 403,
+            "TA": 387,
+            "JW": 378,
+            "DY": 485,
+            "CZ": 499,
+            "NJS": 512
+          },
+          "planned_departure": {
+            "BBS": 474,
+            "SZE": 457,
+            "XZE": 440,
+            "ZZ": 426,
+            "TZE": 417,
+            "QFE": 404,
+            "TA": 388,
+            "JW": 378,
+            "DY": 486,
+            "CZ": 500,
+            "NJS": 512
+          },
+          "planned_stops": [],
+          "original_order": 24
+        },
+        {
+          "train_id": "G163",
+          "planned_entry_bd": 474.8708487084871,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 474,
+            "SZE": 457,
+            "XZE": 438,
+            "ZZ": 424,
+            "TZE": 415,
+            "QFE": 400,
+            "TA": 382,
+            "JW": 373,
+            "DY": 486,
+            "CZ": 500,
+            "NJS": 515
+          },
+          "planned_departure": {
+            "BBS": 475,
+            "SZE": 458,
+            "XZE": 441,
+            "ZZ": 425,
+            "TZE": 416,
+            "QFE": 403,
+            "TA": 385,
+            "JW": 373,
+            "DY": 487,
+            "CZ": 503,
+            "NJS": 515
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 25
+        }
+      ]
+    },
+    {
+      "macro_id": "M03",
+      "date": "2019-10-09",
+      "density_class": "medium",
+      "train_count": 31,
+      "trains": [
+        {
+          "train_id": "G61",
+          "planned_entry_bd": 134.5053380782918,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 134,
+            "SZE": 115,
+            "XZE": 96,
+            "ZZ": 80,
+            "TZE": 71,
+            "QFE": 56,
+            "TA": 38,
+            "JW": 29,
+            "DY": 146,
+            "CZ": 160,
+            "NJS": 173
+          },
+          "planned_departure": {
+            "BBS": 135,
+            "SZE": 118,
+            "XZE": 99,
+            "ZZ": 83,
+            "TZE": 72,
+            "QFE": 59,
+            "TA": 41,
+            "JW": 29,
+            "DY": 147,
+            "CZ": 161,
+            "NJS": 173
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 1
+        },
+        {
+          "train_id": "G7619",
+          "planned_entry_bd": 152.25742574257424,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 151,
+            "SZE": 132,
+            "XZE": 113,
+            "ZZ": 99,
+            "TZE": 90,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 163,
+            "CZ": 177,
+            "NJS": 192
+          },
+          "planned_departure": {
+            "BBS": 152,
+            "SZE": 135,
+            "XZE": 116,
+            "ZZ": 100,
+            "TZE": 91,
+            "QFE": 78,
+            "TA": 62,
+            "JW": 52,
+            "DY": 164,
+            "CZ": 180,
+            "NJS": 192
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 2
+        },
+        {
+          "train_id": "G63",
+          "planned_entry_bd": 157.74377224199287,
+          "recorded_station_codes": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 157,
+            "SZE": 138,
+            "XZE": 119,
+            "ZZ": 103,
+            "TZE": 92,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 169,
+            "CZ": 183,
+            "NJS": 196
+          },
+          "planned_departure": {
+            "BBS": 158,
+            "SZE": 141,
+            "XZE": 122,
+            "ZZ": 106,
+            "TZE": 95,
+            "QFE": 80,
+            "TA": 62,
+            "JW": 52,
+            "DY": 170,
+            "CZ": 184,
+            "NJS": 196
+          },
+          "planned_stops": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 3
+        },
+        {
+          "train_id": "G7299",
+          "planned_entry_bd": 171.54950495049505,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 171,
+            "SZE": 152,
+            "XZE": 133,
+            "ZZ": 119,
+            "TZE": 110,
+            "QFE": 97,
+            "TA": 81,
+            "JW": 72,
+            "DY": 183,
+            "CZ": 197,
+            "NJS": 212
+          },
+          "planned_departure": {
+            "BBS": 172,
+            "SZE": 155,
+            "XZE": 136,
+            "ZZ": 120,
+            "TZE": 111,
+            "QFE": 98,
+            "TA": 82,
+            "JW": 72,
+            "DY": 184,
+            "CZ": 200,
+            "NJS": 212
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 4
+        },
+        {
+          "train_id": "G5",
+          "planned_entry_bd": 173.89274447949526,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 173,
+            "SZE": 156,
+            "XZE": 139,
+            "ZZ": 125,
+            "TZE": 116,
+            "QFE": 103,
+            "TA": 87,
+            "JW": 78,
+            "DY": 185,
+            "CZ": 199,
+            "NJS": 212
+          },
+          "planned_departure": {
+            "BBS": 174,
+            "SZE": 157,
+            "XZE": 140,
+            "ZZ": 126,
+            "TZE": 117,
+            "QFE": 104,
+            "TA": 88,
+            "JW": 78,
+            "DY": 186,
+            "CZ": 200,
+            "NJS": 212
+          },
+          "planned_stops": [],
+          "original_order": 5
+        },
+        {
+          "train_id": "G51",
+          "planned_entry_bd": 205.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 205,
+            "SZE": 188,
+            "XZE": 169,
+            "ZZ": 155,
+            "TZE": 144,
+            "QFE": 131,
+            "TA": 113,
+            "JW": 104,
+            "DY": 217,
+            "CZ": 231,
+            "NJS": 244
+          },
+          "planned_departure": {
+            "BBS": 206,
+            "SZE": 189,
+            "XZE": 172,
+            "ZZ": 156,
+            "TZE": 147,
+            "QFE": 132,
+            "TA": 116,
+            "JW": 104,
+            "DY": 218,
+            "CZ": 232,
+            "NJS": 244
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 6
+        },
+        {
+          "train_id": "G101",
+          "planned_entry_bd": 212.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 212,
+            "SZE": 193,
+            "XZE": 176,
+            "ZZ": 160,
+            "TZE": 151,
+            "QFE": 136,
+            "TA": 120,
+            "JW": 111,
+            "DY": 224,
+            "CZ": 238,
+            "NJS": 251
+          },
+          "planned_departure": {
+            "BBS": 213,
+            "SZE": 196,
+            "XZE": 177,
+            "ZZ": 163,
+            "TZE": 152,
+            "QFE": 139,
+            "TA": 121,
+            "JW": 111,
+            "DY": 225,
+            "CZ": 239,
+            "NJS": 251
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "SZE"
+          ],
+          "original_order": 7
+        },
+        {
+          "train_id": "G19",
+          "planned_entry_bd": 227.28075709779182,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 226,
+            "SZE": 209,
+            "XZE": 192,
+            "ZZ": 178,
+            "TZE": 169,
+            "QFE": 156,
+            "TA": 140,
+            "JW": 131,
+            "DY": 238,
+            "CZ": 252,
+            "NJS": 265
+          },
+          "planned_departure": {
+            "BBS": 227,
+            "SZE": 210,
+            "XZE": 193,
+            "ZZ": 179,
+            "TZE": 170,
+            "QFE": 157,
+            "TA": 141,
+            "JW": 131,
+            "DY": 239,
+            "CZ": 253,
+            "NJS": 265
+          },
+          "planned_stops": [],
+          "original_order": 8
+        },
+        {
+          "train_id": "G57",
+          "planned_entry_bd": 244.8861209964413,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 244,
+            "SZE": 225,
+            "XZE": 206,
+            "ZZ": 190,
+            "TZE": 181,
+            "QFE": 168,
+            "TA": 152,
+            "JW": 143,
+            "DY": 256,
+            "CZ": 270,
+            "NJS": 283
+          },
+          "planned_departure": {
+            "BBS": 245,
+            "SZE": 228,
+            "XZE": 209,
+            "ZZ": 193,
+            "TZE": 182,
+            "QFE": 169,
+            "TA": 153,
+            "JW": 143,
+            "DY": 257,
+            "CZ": 271,
+            "NJS": 283
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 9
+        },
+        {
+          "train_id": "G105",
+          "planned_entry_bd": 249.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "TZE",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 249,
+            "SZE": 230,
+            "XZE": 211,
+            "ZZ": 197,
+            "TZE": 186,
+            "QFE": 173,
+            "TA": 157,
+            "JW": 148,
+            "DY": 261,
+            "CZ": 275,
+            "NJS": 288
+          },
+          "planned_departure": {
+            "BBS": 250,
+            "SZE": 233,
+            "XZE": 214,
+            "ZZ": 198,
+            "TZE": 189,
+            "QFE": 174,
+            "TA": 158,
+            "JW": 148,
+            "DY": 262,
+            "CZ": 276,
+            "NJS": 288
+          },
+          "planned_stops": [
+            "TZE",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 10
+        },
+        {
+          "train_id": "G143",
+          "planned_entry_bd": 253.38485804416405,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 252,
+            "SZE": 235,
+            "XZE": 218,
+            "ZZ": 204,
+            "TZE": 195,
+            "QFE": 182,
+            "TA": 166,
+            "JW": 157,
+            "DY": 264,
+            "CZ": 278,
+            "NJS": 291
+          },
+          "planned_departure": {
+            "BBS": 253,
+            "SZE": 236,
+            "XZE": 219,
+            "ZZ": 205,
+            "TZE": 196,
+            "QFE": 183,
+            "TA": 167,
+            "JW": 157,
+            "DY": 265,
+            "CZ": 279,
+            "NJS": 291
+          },
+          "planned_stops": [],
+          "original_order": 11
+        },
+        {
+          "train_id": "G107",
+          "planned_entry_bd": 273.42857142857144,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 272,
+            "SZE": 255,
+            "XZE": 236,
+            "ZZ": 220,
+            "TZE": 211,
+            "QFE": 198,
+            "TA": 182,
+            "JW": 173,
+            "DY": 284,
+            "CZ": 298,
+            "NJS": 311
+          },
+          "planned_departure": {
+            "BBS": 273,
+            "SZE": 256,
+            "XZE": 239,
+            "ZZ": 223,
+            "TZE": 212,
+            "QFE": 199,
+            "TA": 183,
+            "JW": 173,
+            "DY": 285,
+            "CZ": 299,
+            "NJS": 311
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 12
+        },
+        {
+          "train_id": "G165",
+          "planned_entry_bd": 277.9968454258675,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 277,
+            "SZE": 260,
+            "XZE": 243,
+            "ZZ": 229,
+            "TZE": 220,
+            "QFE": 207,
+            "TA": 191,
+            "JW": 182,
+            "DY": 289,
+            "CZ": 303,
+            "NJS": 316
+          },
+          "planned_departure": {
+            "BBS": 278,
+            "SZE": 261,
+            "XZE": 244,
+            "ZZ": 230,
+            "TZE": 221,
+            "QFE": 208,
+            "TA": 192,
+            "JW": 182,
+            "DY": 290,
+            "CZ": 304,
+            "NJS": 316
+          },
+          "planned_stops": [],
+          "original_order": 13
+        },
+        {
+          "train_id": "G1",
+          "planned_entry_bd": 287.2807570977918,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 286,
+            "SZE": 269,
+            "XZE": 252,
+            "ZZ": 238,
+            "TZE": 229,
+            "QFE": 216,
+            "TA": 200,
+            "JW": 191,
+            "DY": 298,
+            "CZ": 312,
+            "NJS": 325
+          },
+          "planned_departure": {
+            "BBS": 287,
+            "SZE": 270,
+            "XZE": 253,
+            "ZZ": 239,
+            "TZE": 230,
+            "QFE": 217,
+            "TA": 201,
+            "JW": 191,
+            "DY": 299,
+            "CZ": 313,
+            "NJS": 325
+          },
+          "planned_stops": [],
+          "original_order": 14
+        },
+        {
+          "train_id": "G55",
+          "planned_entry_bd": 296.690036900369,
+          "recorded_station_codes": [
+            "JW",
+            "TZE",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 296,
+            "SZE": 279,
+            "XZE": 260,
+            "ZZ": 246,
+            "TZE": 235,
+            "QFE": 222,
+            "TA": 206,
+            "JW": 197,
+            "DY": 308,
+            "CZ": 322,
+            "NJS": 337
+          },
+          "planned_departure": {
+            "BBS": 297,
+            "SZE": 280,
+            "XZE": 263,
+            "ZZ": 247,
+            "TZE": 238,
+            "QFE": 223,
+            "TA": 207,
+            "JW": 197,
+            "DY": 309,
+            "CZ": 325,
+            "NJS": 337
+          },
+          "planned_stops": [
+            "TZE",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 15
+        },
+        {
+          "train_id": "G111",
+          "planned_entry_bd": 309.1139705882353,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "ZZ",
+            "DY",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 308,
+            "SZE": 291,
+            "XZE": 274,
+            "ZZ": 258,
+            "TZE": 249,
+            "QFE": 236,
+            "TA": 218,
+            "JW": 209,
+            "DY": 320,
+            "CZ": 336,
+            "NJS": 349
+          },
+          "planned_departure": {
+            "BBS": 309,
+            "SZE": 292,
+            "XZE": 275,
+            "ZZ": 261,
+            "TZE": 250,
+            "QFE": 237,
+            "TA": 221,
+            "JW": 209,
+            "DY": 323,
+            "CZ": 337,
+            "NJS": 349
+          },
+          "planned_stops": [
+            "TA",
+            "ZZ",
+            "DY"
+          ],
+          "original_order": 16
+        },
+        {
+          "train_id": "G113",
+          "planned_entry_bd": 325.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 325,
+            "SZE": 308,
+            "XZE": 289,
+            "ZZ": 275,
+            "TZE": 266,
+            "QFE": 253,
+            "TA": 237,
+            "JW": 228,
+            "DY": 337,
+            "CZ": 351,
+            "NJS": 364
+          },
+          "planned_departure": {
+            "BBS": 326,
+            "SZE": 309,
+            "XZE": 292,
+            "ZZ": 276,
+            "TZE": 267,
+            "QFE": 254,
+            "TA": 238,
+            "JW": 228,
+            "DY": 338,
+            "CZ": 352,
+            "NJS": 364
+          },
+          "planned_stops": [
+            "XZE"
+          ],
+          "original_order": 17
+        },
+        {
+          "train_id": "G211",
+          "planned_entry_bd": 330.2792079207921,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 329,
+            "SZE": 312,
+            "XZE": 295,
+            "ZZ": 281,
+            "TZE": 272,
+            "QFE": 257,
+            "TA": 241,
+            "JW": 232,
+            "DY": 341,
+            "CZ": 355,
+            "NJS": 368
+          },
+          "planned_departure": {
+            "BBS": 330,
+            "SZE": 313,
+            "XZE": 296,
+            "ZZ": 282,
+            "TZE": 273,
+            "QFE": 260,
+            "TA": 242,
+            "JW": 232,
+            "DY": 342,
+            "CZ": 356,
+            "NJS": 368
+          },
+          "planned_stops": [
+            "QFE"
+          ],
+          "original_order": 18
+        },
+        {
+          "train_id": "G41",
+          "planned_entry_bd": 344.46434782608696,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 343,
+            "SZE": 326,
+            "XZE": 309,
+            "ZZ": 295,
+            "TZE": 286,
+            "QFE": 273,
+            "TA": 255,
+            "JW": 246,
+            "DY": 355,
+            "CZ": 369,
+            "NJS": 382
+          },
+          "planned_departure": {
+            "BBS": 344,
+            "SZE": 327,
+            "XZE": 310,
+            "ZZ": 296,
+            "TZE": 287,
+            "QFE": 274,
+            "TA": 258,
+            "JW": 246,
+            "DY": 356,
+            "CZ": 370,
+            "NJS": 382
+          },
+          "planned_stops": [
+            "TA"
+          ],
+          "original_order": 19
+        },
+        {
+          "train_id": "G7",
+          "planned_entry_bd": 346.58675078864354,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 346,
+            "SZE": 329,
+            "XZE": 312,
+            "ZZ": 298,
+            "TZE": 289,
+            "QFE": 276,
+            "TA": 260,
+            "JW": 251,
+            "DY": 358,
+            "CZ": 372,
+            "NJS": 385
+          },
+          "planned_departure": {
+            "BBS": 347,
+            "SZE": 330,
+            "XZE": 313,
+            "ZZ": 299,
+            "TZE": 290,
+            "QFE": 277,
+            "TA": 261,
+            "JW": 251,
+            "DY": 359,
+            "CZ": 373,
+            "NJS": 385
+          },
+          "planned_stops": [],
+          "original_order": 20
+        },
+        {
+          "train_id": "G115",
+          "planned_entry_bd": 356.576512455516,
+          "recorded_station_codes": [
+            "JW",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 356,
+            "SZE": 337,
+            "XZE": 320,
+            "ZZ": 306,
+            "TZE": 297,
+            "QFE": 284,
+            "TA": 268,
+            "JW": 259,
+            "DY": 368,
+            "CZ": 382,
+            "NJS": 395
+          },
+          "planned_departure": {
+            "BBS": 357,
+            "SZE": 340,
+            "XZE": 321,
+            "ZZ": 307,
+            "TZE": 298,
+            "QFE": 285,
+            "TA": 269,
+            "JW": 259,
+            "DY": 369,
+            "CZ": 383,
+            "NJS": 395
+          },
+          "planned_stops": [
+            "SZE"
+          ],
+          "original_order": 21
+        },
+        {
+          "train_id": "G1813",
+          "planned_entry_bd": 363.57416267942585,
+          "recorded_station_codes": [
+            "XZE",
+            "DY",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 363,
+            "SZE": 346,
+            "XZE": 327,
+            "ZZ": 313,
+            "TZE": 304,
+            "QFE": 291,
+            "TA": 275,
+            "JW": 266,
+            "DY": 375,
+            "CZ": 391,
+            "NJS": 404
+          },
+          "planned_departure": {
+            "BBS": 364,
+            "SZE": 347,
+            "XZE": 330,
+            "ZZ": 314,
+            "TZE": 305,
+            "QFE": 292,
+            "TA": 276,
+            "JW": 266,
+            "DY": 378,
+            "CZ": 392,
+            "NJS": 404
+          },
+          "planned_stops": [
+            "XZE",
+            "DY"
+          ],
+          "original_order": 22
+        },
+        {
+          "train_id": "G117",
+          "planned_entry_bd": 378.52095808383234,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 378,
+            "SZE": 361,
+            "XZE": 344,
+            "ZZ": 328,
+            "TZE": 319,
+            "QFE": 306,
+            "TA": 290,
+            "JW": 281,
+            "DY": 390,
+            "CZ": 404,
+            "NJS": 419
+          },
+          "planned_departure": {
+            "BBS": 379,
+            "SZE": 362,
+            "XZE": 345,
+            "ZZ": 331,
+            "TZE": 320,
+            "QFE": 307,
+            "TA": 291,
+            "JW": 281,
+            "DY": 391,
+            "CZ": 407,
+            "NJS": 419
+          },
+          "planned_stops": [
+            "ZZ",
+            "CZ"
+          ],
+          "original_order": 23
+        },
+        {
+          "train_id": "G2811",
+          "planned_entry_bd": 388.24257425742576,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 387,
+            "SZE": 368,
+            "XZE": 349,
+            "ZZ": 335,
+            "TZE": 326,
+            "QFE": 313,
+            "TA": 297,
+            "JW": 288,
+            "DY": 399,
+            "CZ": 413,
+            "NJS": 428
+          },
+          "planned_departure": {
+            "BBS": 388,
+            "SZE": 371,
+            "XZE": 352,
+            "ZZ": 336,
+            "TZE": 327,
+            "QFE": 314,
+            "TA": 298,
+            "JW": 288,
+            "DY": 400,
+            "CZ": 416,
+            "NJS": 428
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 24
+        },
+        {
+          "train_id": "G33",
+          "planned_entry_bd": 395.576512455516,
+          "recorded_station_codes": [
+            "JW",
+            "TZE",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 395,
+            "SZE": 376,
+            "XZE": 357,
+            "ZZ": 343,
+            "TZE": 332,
+            "QFE": 319,
+            "TA": 303,
+            "JW": 294,
+            "DY": 407,
+            "CZ": 421,
+            "NJS": 434
+          },
+          "planned_departure": {
+            "BBS": 396,
+            "SZE": 379,
+            "XZE": 360,
+            "ZZ": 344,
+            "TZE": 335,
+            "QFE": 320,
+            "TA": 304,
+            "JW": 294,
+            "DY": 408,
+            "CZ": 422,
+            "NJS": 434
+          },
+          "planned_stops": [
+            "TZE",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 25
+        },
+        {
+          "train_id": "G119",
+          "planned_entry_bd": 402.10285714285715,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 401,
+            "SZE": 384,
+            "XZE": 365,
+            "ZZ": 349,
+            "TZE": 340,
+            "QFE": 325,
+            "TA": 309,
+            "JW": 300,
+            "DY": 413,
+            "CZ": 427,
+            "NJS": 440
+          },
+          "planned_departure": {
+            "BBS": 402,
+            "SZE": 385,
+            "XZE": 368,
+            "ZZ": 352,
+            "TZE": 341,
+            "QFE": 328,
+            "TA": 310,
+            "JW": 300,
+            "DY": 414,
+            "CZ": 428,
+            "NJS": 440
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 26
+        },
+        {
+          "train_id": "G31",
+          "planned_entry_bd": 413.30857142857144,
+          "recorded_station_codes": [
+            "JW",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 412,
+            "SZE": 395,
+            "XZE": 376,
+            "ZZ": 362,
+            "TZE": 353,
+            "QFE": 340,
+            "TA": 324,
+            "JW": 315,
+            "DY": 424,
+            "CZ": 438,
+            "NJS": 451
+          },
+          "planned_departure": {
+            "BBS": 413,
+            "SZE": 396,
+            "XZE": 379,
+            "ZZ": 363,
+            "TZE": 354,
+            "QFE": 341,
+            "TA": 325,
+            "JW": 315,
+            "DY": 425,
+            "CZ": 439,
+            "NJS": 451
+          },
+          "planned_stops": [
+            "XZE"
+          ],
+          "original_order": 27
+        },
+        {
+          "train_id": "G213",
+          "planned_entry_bd": 425.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 425,
+            "SZE": 408,
+            "XZE": 389,
+            "ZZ": 375,
+            "TZE": 364,
+            "QFE": 351,
+            "TA": 333,
+            "JW": 324,
+            "DY": 437,
+            "CZ": 451,
+            "NJS": 464
+          },
+          "planned_departure": {
+            "BBS": 426,
+            "SZE": 409,
+            "XZE": 392,
+            "ZZ": 376,
+            "TZE": 367,
+            "QFE": 352,
+            "TA": 336,
+            "JW": 324,
+            "DY": 438,
+            "CZ": 452,
+            "NJS": 464
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 28
+        },
+        {
+          "train_id": "G121",
+          "planned_entry_bd": 434.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 434,
+            "SZE": 417,
+            "XZE": 398,
+            "ZZ": 384,
+            "TZE": 375,
+            "QFE": 360,
+            "TA": 344,
+            "JW": 335,
+            "DY": 446,
+            "CZ": 460,
+            "NJS": 473
+          },
+          "planned_departure": {
+            "BBS": 435,
+            "SZE": 418,
+            "XZE": 401,
+            "ZZ": 385,
+            "TZE": 376,
+            "QFE": 363,
+            "TA": 345,
+            "JW": 335,
+            "DY": 447,
+            "CZ": 461,
+            "NJS": 473
+          },
+          "planned_stops": [
+            "QFE",
+            "XZE"
+          ],
+          "original_order": 29
+        },
+        {
+          "train_id": "G125",
+          "planned_entry_bd": 463.64864864864865,
+          "recorded_station_codes": [
+            "JW",
+            "TZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 463,
+            "SZE": 446,
+            "XZE": 429,
+            "ZZ": 415,
+            "TZE": 404,
+            "QFE": 391,
+            "TA": 375,
+            "JW": 366,
+            "DY": 475,
+            "CZ": 489,
+            "NJS": 504
+          },
+          "planned_departure": {
+            "BBS": 464,
+            "SZE": 447,
+            "XZE": 430,
+            "ZZ": 416,
+            "TZE": 407,
+            "QFE": 392,
+            "TA": 376,
+            "JW": 366,
+            "DY": 476,
+            "CZ": 492,
+            "NJS": 504
+          },
+          "planned_stops": [
+            "TZE",
+            "CZ"
+          ],
+          "original_order": 30
+        },
+        {
+          "train_id": "G9",
+          "planned_entry_bd": 473.89274447949526,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 473,
+            "SZE": 456,
+            "XZE": 439,
+            "ZZ": 425,
+            "TZE": 416,
+            "QFE": 403,
+            "TA": 387,
+            "JW": 378,
+            "DY": 485,
+            "CZ": 499,
+            "NJS": 512
+          },
+          "planned_departure": {
+            "BBS": 474,
+            "SZE": 457,
+            "XZE": 440,
+            "ZZ": 426,
+            "TZE": 417,
+            "QFE": 404,
+            "TA": 388,
+            "JW": 378,
+            "DY": 486,
+            "CZ": 500,
+            "NJS": 512
+          },
+          "planned_stops": [],
+          "original_order": 31
+        }
+      ]
+    },
+    {
+      "macro_id": "M04",
+      "date": "2020-01-01",
+      "density_class": "medium-high",
+      "train_count": 33,
+      "trains": [
+        {
+          "train_id": "G61",
+          "planned_entry_bd": 134.5053380782918,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "TZE",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 134,
+            "SZE": 115,
+            "XZE": 96,
+            "ZZ": 82,
+            "TZE": 71,
+            "QFE": 56,
+            "TA": 38,
+            "JW": 29,
+            "DY": 146,
+            "CZ": 160,
+            "NJS": 173
+          },
+          "planned_departure": {
+            "BBS": 135,
+            "SZE": 118,
+            "XZE": 99,
+            "ZZ": 83,
+            "TZE": 74,
+            "QFE": 59,
+            "TA": 41,
+            "JW": 29,
+            "DY": 147,
+            "CZ": 161,
+            "NJS": 173
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "TZE",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 1
+        },
+        {
+          "train_id": "G7619",
+          "planned_entry_bd": 152.25742574257424,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 151,
+            "SZE": 132,
+            "XZE": 113,
+            "ZZ": 99,
+            "TZE": 90,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 163,
+            "CZ": 177,
+            "NJS": 192
+          },
+          "planned_departure": {
+            "BBS": 152,
+            "SZE": 135,
+            "XZE": 116,
+            "ZZ": 100,
+            "TZE": 91,
+            "QFE": 78,
+            "TA": 62,
+            "JW": 52,
+            "DY": 164,
+            "CZ": 180,
+            "NJS": 192
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 2
+        },
+        {
+          "train_id": "G343",
+          "planned_entry_bd": 157.74377224199287,
+          "recorded_station_codes": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 157,
+            "SZE": 138,
+            "XZE": 119,
+            "ZZ": 103,
+            "TZE": 92,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 169,
+            "CZ": 183,
+            "NJS": 196
+          },
+          "planned_departure": {
+            "BBS": 158,
+            "SZE": 141,
+            "XZE": 122,
+            "ZZ": 106,
+            "TZE": 95,
+            "QFE": 80,
+            "TA": 62,
+            "JW": 52,
+            "DY": 170,
+            "CZ": 184,
+            "NJS": 196
+          },
+          "planned_stops": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 3
+        },
+        {
+          "train_id": "G7299",
+          "planned_entry_bd": 171.54950495049505,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 171,
+            "SZE": 152,
+            "XZE": 133,
+            "ZZ": 119,
+            "TZE": 110,
+            "QFE": 97,
+            "TA": 81,
+            "JW": 72,
+            "DY": 183,
+            "CZ": 197,
+            "NJS": 212
+          },
+          "planned_departure": {
+            "BBS": 172,
+            "SZE": 155,
+            "XZE": 136,
+            "ZZ": 120,
+            "TZE": 111,
+            "QFE": 98,
+            "TA": 82,
+            "JW": 72,
+            "DY": 184,
+            "CZ": 200,
+            "NJS": 212
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 4
+        },
+        {
+          "train_id": "G5",
+          "planned_entry_bd": 173.89274447949526,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 173,
+            "SZE": 156,
+            "XZE": 139,
+            "ZZ": 125,
+            "TZE": 116,
+            "QFE": 103,
+            "TA": 87,
+            "JW": 78,
+            "DY": 185,
+            "CZ": 199,
+            "NJS": 212
+          },
+          "planned_departure": {
+            "BBS": 174,
+            "SZE": 157,
+            "XZE": 140,
+            "ZZ": 126,
+            "TZE": 117,
+            "QFE": 104,
+            "TA": 88,
+            "JW": 78,
+            "DY": 186,
+            "CZ": 200,
+            "NJS": 212
+          },
+          "planned_stops": [],
+          "original_order": 5
+        },
+        {
+          "train_id": "G51",
+          "planned_entry_bd": 205.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 205,
+            "SZE": 188,
+            "XZE": 169,
+            "ZZ": 155,
+            "TZE": 144,
+            "QFE": 131,
+            "TA": 113,
+            "JW": 104,
+            "DY": 217,
+            "CZ": 231,
+            "NJS": 244
+          },
+          "planned_departure": {
+            "BBS": 206,
+            "SZE": 189,
+            "XZE": 172,
+            "ZZ": 156,
+            "TZE": 147,
+            "QFE": 132,
+            "TA": 116,
+            "JW": 104,
+            "DY": 218,
+            "CZ": 232,
+            "NJS": 244
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 6
+        },
+        {
+          "train_id": "G101",
+          "planned_entry_bd": 212.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 212,
+            "SZE": 193,
+            "XZE": 176,
+            "ZZ": 160,
+            "TZE": 151,
+            "QFE": 136,
+            "TA": 120,
+            "JW": 111,
+            "DY": 224,
+            "CZ": 238,
+            "NJS": 251
+          },
+          "planned_departure": {
+            "BBS": 213,
+            "SZE": 196,
+            "XZE": 177,
+            "ZZ": 163,
+            "TZE": 152,
+            "QFE": 139,
+            "TA": 121,
+            "JW": 111,
+            "DY": 225,
+            "CZ": 239,
+            "NJS": 251
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "SZE"
+          ],
+          "original_order": 7
+        },
+        {
+          "train_id": "G19",
+          "planned_entry_bd": 227.28075709779182,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 226,
+            "SZE": 209,
+            "XZE": 192,
+            "ZZ": 178,
+            "TZE": 169,
+            "QFE": 156,
+            "TA": 140,
+            "JW": 131,
+            "DY": 238,
+            "CZ": 252,
+            "NJS": 265
+          },
+          "planned_departure": {
+            "BBS": 227,
+            "SZE": 210,
+            "XZE": 193,
+            "ZZ": 179,
+            "TZE": 170,
+            "QFE": 157,
+            "TA": 141,
+            "JW": 131,
+            "DY": 239,
+            "CZ": 253,
+            "NJS": 265
+          },
+          "planned_stops": [],
+          "original_order": 8
+        },
+        {
+          "train_id": "G57",
+          "planned_entry_bd": 244.8861209964413,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 244,
+            "SZE": 225,
+            "XZE": 206,
+            "ZZ": 190,
+            "TZE": 181,
+            "QFE": 168,
+            "TA": 152,
+            "JW": 143,
+            "DY": 256,
+            "CZ": 270,
+            "NJS": 283
+          },
+          "planned_departure": {
+            "BBS": 245,
+            "SZE": 228,
+            "XZE": 209,
+            "ZZ": 193,
+            "TZE": 182,
+            "QFE": 169,
+            "TA": 153,
+            "JW": 143,
+            "DY": 257,
+            "CZ": 271,
+            "NJS": 283
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 9
+        },
+        {
+          "train_id": "G105",
+          "planned_entry_bd": 249.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 249,
+            "SZE": 230,
+            "XZE": 211,
+            "ZZ": 195,
+            "TZE": 186,
+            "QFE": 173,
+            "TA": 157,
+            "JW": 148,
+            "DY": 261,
+            "CZ": 275,
+            "NJS": 288
+          },
+          "planned_departure": {
+            "BBS": 250,
+            "SZE": 233,
+            "XZE": 214,
+            "ZZ": 198,
+            "TZE": 187,
+            "QFE": 174,
+            "TA": 158,
+            "JW": 148,
+            "DY": 262,
+            "CZ": 276,
+            "NJS": 288
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 10
+        },
+        {
+          "train_id": "G143",
+          "planned_entry_bd": 253.38485804416405,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 252,
+            "SZE": 235,
+            "XZE": 218,
+            "ZZ": 204,
+            "TZE": 195,
+            "QFE": 182,
+            "TA": 166,
+            "JW": 157,
+            "DY": 264,
+            "CZ": 278,
+            "NJS": 291
+          },
+          "planned_departure": {
+            "BBS": 253,
+            "SZE": 236,
+            "XZE": 219,
+            "ZZ": 205,
+            "TZE": 196,
+            "QFE": 183,
+            "TA": 167,
+            "JW": 157,
+            "DY": 265,
+            "CZ": 279,
+            "NJS": 291
+          },
+          "planned_stops": [],
+          "original_order": 11
+        },
+        {
+          "train_id": "G107",
+          "planned_entry_bd": 273.42857142857144,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 272,
+            "SZE": 255,
+            "XZE": 236,
+            "ZZ": 220,
+            "TZE": 211,
+            "QFE": 198,
+            "TA": 182,
+            "JW": 173,
+            "DY": 284,
+            "CZ": 298,
+            "NJS": 311
+          },
+          "planned_departure": {
+            "BBS": 273,
+            "SZE": 256,
+            "XZE": 239,
+            "ZZ": 223,
+            "TZE": 212,
+            "QFE": 199,
+            "TA": 183,
+            "JW": 173,
+            "DY": 285,
+            "CZ": 299,
+            "NJS": 311
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 12
+        },
+        {
+          "train_id": "G1",
+          "planned_entry_bd": 287.2807570977918,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 286,
+            "SZE": 269,
+            "XZE": 252,
+            "ZZ": 238,
+            "TZE": 229,
+            "QFE": 216,
+            "TA": 200,
+            "JW": 191,
+            "DY": 298,
+            "CZ": 312,
+            "NJS": 325
+          },
+          "planned_departure": {
+            "BBS": 287,
+            "SZE": 270,
+            "XZE": 253,
+            "ZZ": 239,
+            "TZE": 230,
+            "QFE": 217,
+            "TA": 201,
+            "JW": 191,
+            "DY": 299,
+            "CZ": 313,
+            "NJS": 325
+          },
+          "planned_stops": [],
+          "original_order": 13
+        },
+        {
+          "train_id": "G55",
+          "planned_entry_bd": 296.690036900369,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 296,
+            "SZE": 279,
+            "XZE": 260,
+            "ZZ": 244,
+            "TZE": 235,
+            "QFE": 222,
+            "TA": 206,
+            "JW": 197,
+            "DY": 308,
+            "CZ": 322,
+            "NJS": 337
+          },
+          "planned_departure": {
+            "BBS": 297,
+            "SZE": 280,
+            "XZE": 263,
+            "ZZ": 247,
+            "TZE": 236,
+            "QFE": 223,
+            "TA": 207,
+            "JW": 197,
+            "DY": 309,
+            "CZ": 325,
+            "NJS": 337
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 14
+        },
+        {
+          "train_id": "G111",
+          "planned_entry_bd": 309.1139705882353,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "ZZ",
+            "DY",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 308,
+            "SZE": 291,
+            "XZE": 274,
+            "ZZ": 258,
+            "TZE": 249,
+            "QFE": 236,
+            "TA": 218,
+            "JW": 209,
+            "DY": 320,
+            "CZ": 336,
+            "NJS": 349
+          },
+          "planned_departure": {
+            "BBS": 309,
+            "SZE": 292,
+            "XZE": 275,
+            "ZZ": 261,
+            "TZE": 250,
+            "QFE": 237,
+            "TA": 221,
+            "JW": 209,
+            "DY": 323,
+            "CZ": 337,
+            "NJS": 349
+          },
+          "planned_stops": [
+            "TA",
+            "ZZ",
+            "DY"
+          ],
+          "original_order": 15
+        },
+        {
+          "train_id": "G441",
+          "planned_entry_bd": 313.9942857142857,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 313,
+            "SZE": 296,
+            "XZE": 277,
+            "ZZ": 261,
+            "TZE": 252,
+            "QFE": 239,
+            "TA": 223,
+            "JW": 214,
+            "DY": 325,
+            "CZ": 339,
+            "NJS": 352
+          },
+          "planned_departure": {
+            "BBS": 314,
+            "SZE": 297,
+            "XZE": 280,
+            "ZZ": 264,
+            "TZE": 253,
+            "QFE": 240,
+            "TA": 224,
+            "JW": 214,
+            "DY": 326,
+            "CZ": 340,
+            "NJS": 352
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 16
+        },
+        {
+          "train_id": "G113",
+          "planned_entry_bd": 325.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 325,
+            "SZE": 308,
+            "XZE": 289,
+            "ZZ": 275,
+            "TZE": 266,
+            "QFE": 253,
+            "TA": 237,
+            "JW": 228,
+            "DY": 337,
+            "CZ": 351,
+            "NJS": 364
+          },
+          "planned_departure": {
+            "BBS": 326,
+            "SZE": 309,
+            "XZE": 292,
+            "ZZ": 276,
+            "TZE": 267,
+            "QFE": 254,
+            "TA": 238,
+            "JW": 228,
+            "DY": 338,
+            "CZ": 352,
+            "NJS": 364
+          },
+          "planned_stops": [
+            "XZE"
+          ],
+          "original_order": 17
+        },
+        {
+          "train_id": "G211",
+          "planned_entry_bd": 330.2792079207921,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 329,
+            "SZE": 312,
+            "XZE": 295,
+            "ZZ": 281,
+            "TZE": 272,
+            "QFE": 257,
+            "TA": 241,
+            "JW": 232,
+            "DY": 341,
+            "CZ": 355,
+            "NJS": 368
+          },
+          "planned_departure": {
+            "BBS": 330,
+            "SZE": 313,
+            "XZE": 296,
+            "ZZ": 282,
+            "TZE": 273,
+            "QFE": 260,
+            "TA": 242,
+            "JW": 232,
+            "DY": 342,
+            "CZ": 356,
+            "NJS": 368
+          },
+          "planned_stops": [
+            "QFE"
+          ],
+          "original_order": 18
+        },
+        {
+          "train_id": "G41",
+          "planned_entry_bd": 344.46434782608696,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 343,
+            "SZE": 326,
+            "XZE": 309,
+            "ZZ": 295,
+            "TZE": 286,
+            "QFE": 273,
+            "TA": 255,
+            "JW": 246,
+            "DY": 355,
+            "CZ": 369,
+            "NJS": 382
+          },
+          "planned_departure": {
+            "BBS": 344,
+            "SZE": 327,
+            "XZE": 310,
+            "ZZ": 296,
+            "TZE": 287,
+            "QFE": 274,
+            "TA": 258,
+            "JW": 246,
+            "DY": 356,
+            "CZ": 370,
+            "NJS": 382
+          },
+          "planned_stops": [
+            "TA"
+          ],
+          "original_order": 19
+        },
+        {
+          "train_id": "G7",
+          "planned_entry_bd": 346.58675078864354,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 346,
+            "SZE": 329,
+            "XZE": 312,
+            "ZZ": 298,
+            "TZE": 289,
+            "QFE": 276,
+            "TA": 260,
+            "JW": 251,
+            "DY": 358,
+            "CZ": 372,
+            "NJS": 385
+          },
+          "planned_departure": {
+            "BBS": 347,
+            "SZE": 330,
+            "XZE": 313,
+            "ZZ": 299,
+            "TZE": 290,
+            "QFE": 277,
+            "TA": 261,
+            "JW": 251,
+            "DY": 359,
+            "CZ": 373,
+            "NJS": 385
+          },
+          "planned_stops": [],
+          "original_order": 20
+        },
+        {
+          "train_id": "G115",
+          "planned_entry_bd": 356.576512455516,
+          "recorded_station_codes": [
+            "JW",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 356,
+            "SZE": 337,
+            "XZE": 320,
+            "ZZ": 306,
+            "TZE": 297,
+            "QFE": 284,
+            "TA": 268,
+            "JW": 259,
+            "DY": 368,
+            "CZ": 382,
+            "NJS": 395
+          },
+          "planned_departure": {
+            "BBS": 357,
+            "SZE": 340,
+            "XZE": 321,
+            "ZZ": 307,
+            "TZE": 298,
+            "QFE": 285,
+            "TA": 269,
+            "JW": 259,
+            "DY": 369,
+            "CZ": 383,
+            "NJS": 395
+          },
+          "planned_stops": [
+            "SZE"
+          ],
+          "original_order": 21
+        },
+        {
+          "train_id": "G1813",
+          "planned_entry_bd": 368.2669039145907,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 367,
+            "SZE": 348,
+            "XZE": 329,
+            "ZZ": 315,
+            "TZE": 306,
+            "QFE": 293,
+            "TA": 277,
+            "JW": 268,
+            "DY": 379,
+            "CZ": 393,
+            "NJS": 406
+          },
+          "planned_departure": {
+            "BBS": 368,
+            "SZE": 351,
+            "XZE": 332,
+            "ZZ": 316,
+            "TZE": 307,
+            "QFE": 294,
+            "TA": 278,
+            "JW": 268,
+            "DY": 380,
+            "CZ": 394,
+            "NJS": 406
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 22
+        },
+        {
+          "train_id": "G117",
+          "planned_entry_bd": 378.52095808383234,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 378,
+            "SZE": 361,
+            "XZE": 344,
+            "ZZ": 328,
+            "TZE": 319,
+            "QFE": 306,
+            "TA": 290,
+            "JW": 281,
+            "DY": 390,
+            "CZ": 404,
+            "NJS": 419
+          },
+          "planned_departure": {
+            "BBS": 379,
+            "SZE": 362,
+            "XZE": 345,
+            "ZZ": 331,
+            "TZE": 320,
+            "QFE": 307,
+            "TA": 291,
+            "JW": 281,
+            "DY": 391,
+            "CZ": 407,
+            "NJS": 419
+          },
+          "planned_stops": [
+            "ZZ",
+            "CZ"
+          ],
+          "original_order": 23
+        },
+        {
+          "train_id": "G445",
+          "planned_entry_bd": 388.12857142857143,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "DY",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 387,
+            "SZE": 368,
+            "XZE": 349,
+            "ZZ": 333,
+            "TZE": 324,
+            "QFE": 309,
+            "TA": 291,
+            "JW": 282,
+            "DY": 399,
+            "CZ": 415,
+            "NJS": 430
+          },
+          "planned_departure": {
+            "BBS": 388,
+            "SZE": 371,
+            "XZE": 352,
+            "ZZ": 336,
+            "TZE": 325,
+            "QFE": 312,
+            "TA": 294,
+            "JW": 282,
+            "DY": 402,
+            "CZ": 418,
+            "NJS": 430
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "DY",
+            "CZ"
+          ],
+          "original_order": 24
+        },
+        {
+          "train_id": "G33",
+          "planned_entry_bd": 394.88612099644126,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 394,
+            "SZE": 375,
+            "XZE": 356,
+            "ZZ": 342,
+            "TZE": 333,
+            "QFE": 318,
+            "TA": 302,
+            "JW": 293,
+            "DY": 406,
+            "CZ": 420,
+            "NJS": 433
+          },
+          "planned_departure": {
+            "BBS": 395,
+            "SZE": 378,
+            "XZE": 359,
+            "ZZ": 343,
+            "TZE": 334,
+            "QFE": 321,
+            "TA": 303,
+            "JW": 293,
+            "DY": 407,
+            "CZ": 421,
+            "NJS": 433
+          },
+          "planned_stops": [
+            "QFE",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 25
+        },
+        {
+          "train_id": "G119",
+          "planned_entry_bd": 402.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 402,
+            "SZE": 385,
+            "XZE": 366,
+            "ZZ": 350,
+            "TZE": 341,
+            "QFE": 326,
+            "TA": 310,
+            "JW": 301,
+            "DY": 414,
+            "CZ": 428,
+            "NJS": 441
+          },
+          "planned_departure": {
+            "BBS": 403,
+            "SZE": 386,
+            "XZE": 369,
+            "ZZ": 353,
+            "TZE": 342,
+            "QFE": 329,
+            "TA": 311,
+            "JW": 301,
+            "DY": 415,
+            "CZ": 429,
+            "NJS": 441
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 26
+        },
+        {
+          "train_id": "G31",
+          "planned_entry_bd": 413.30857142857144,
+          "recorded_station_codes": [
+            "JW",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 412,
+            "SZE": 395,
+            "XZE": 376,
+            "ZZ": 362,
+            "TZE": 353,
+            "QFE": 340,
+            "TA": 324,
+            "JW": 315,
+            "DY": 424,
+            "CZ": 438,
+            "NJS": 451
+          },
+          "planned_departure": {
+            "BBS": 413,
+            "SZE": 396,
+            "XZE": 379,
+            "ZZ": 363,
+            "TZE": 354,
+            "QFE": 341,
+            "TA": 325,
+            "JW": 315,
+            "DY": 425,
+            "CZ": 439,
+            "NJS": 451
+          },
+          "planned_stops": [
+            "XZE"
+          ],
+          "original_order": 27
+        },
+        {
+          "train_id": "G213",
+          "planned_entry_bd": 425.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 425,
+            "SZE": 408,
+            "XZE": 389,
+            "ZZ": 375,
+            "TZE": 364,
+            "QFE": 351,
+            "TA": 333,
+            "JW": 324,
+            "DY": 437,
+            "CZ": 451,
+            "NJS": 464
+          },
+          "planned_departure": {
+            "BBS": 426,
+            "SZE": 409,
+            "XZE": 392,
+            "ZZ": 376,
+            "TZE": 367,
+            "QFE": 352,
+            "TA": 336,
+            "JW": 324,
+            "DY": 438,
+            "CZ": 452,
+            "NJS": 464
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 28
+        },
+        {
+          "train_id": "G121",
+          "planned_entry_bd": 434.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 434,
+            "SZE": 417,
+            "XZE": 398,
+            "ZZ": 384,
+            "TZE": 375,
+            "QFE": 360,
+            "TA": 344,
+            "JW": 335,
+            "DY": 446,
+            "CZ": 460,
+            "NJS": 473
+          },
+          "planned_departure": {
+            "BBS": 435,
+            "SZE": 418,
+            "XZE": 401,
+            "ZZ": 385,
+            "TZE": 376,
+            "QFE": 363,
+            "TA": 345,
+            "JW": 335,
+            "DY": 447,
+            "CZ": 461,
+            "NJS": 473
+          },
+          "planned_stops": [
+            "QFE",
+            "XZE"
+          ],
+          "original_order": 29
+        },
+        {
+          "train_id": "G123",
+          "planned_entry_bd": 451.13317191283295,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 450,
+            "SZE": 433,
+            "XZE": 416,
+            "ZZ": 400,
+            "TZE": 391,
+            "QFE": 378,
+            "TA": 362,
+            "JW": 353,
+            "DY": 462,
+            "CZ": 476,
+            "NJS": 489
+          },
+          "planned_departure": {
+            "BBS": 451,
+            "SZE": 434,
+            "XZE": 417,
+            "ZZ": 403,
+            "TZE": 392,
+            "QFE": 379,
+            "TA": 363,
+            "JW": 353,
+            "DY": 463,
+            "CZ": 477,
+            "NJS": 489
+          },
+          "planned_stops": [
+            "ZZ"
+          ],
+          "original_order": 30
+        },
+        {
+          "train_id": "G125",
+          "planned_entry_bd": 464.24257425742576,
+          "recorded_station_codes": [
+            "JW",
+            "TZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 463,
+            "SZE": 444,
+            "XZE": 427,
+            "ZZ": 413,
+            "TZE": 402,
+            "QFE": 389,
+            "TA": 373,
+            "JW": 364,
+            "DY": 475,
+            "CZ": 489,
+            "NJS": 504
+          },
+          "planned_departure": {
+            "BBS": 464,
+            "SZE": 447,
+            "XZE": 428,
+            "ZZ": 414,
+            "TZE": 405,
+            "QFE": 390,
+            "TA": 374,
+            "JW": 364,
+            "DY": 476,
+            "CZ": 492,
+            "NJS": 504
+          },
+          "planned_stops": [
+            "TZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 31
+        },
+        {
+          "train_id": "G9",
+          "planned_entry_bd": 473.89274447949526,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 473,
+            "SZE": 456,
+            "XZE": 439,
+            "ZZ": 425,
+            "TZE": 416,
+            "QFE": 403,
+            "TA": 387,
+            "JW": 378,
+            "DY": 485,
+            "CZ": 499,
+            "NJS": 512
+          },
+          "planned_departure": {
+            "BBS": 474,
+            "SZE": 457,
+            "XZE": 440,
+            "ZZ": 426,
+            "TZE": 417,
+            "QFE": 404,
+            "TA": 388,
+            "JW": 378,
+            "DY": 486,
+            "CZ": 500,
+            "NJS": 512
+          },
+          "planned_stops": [],
+          "original_order": 32
+        },
+        {
+          "train_id": "G163",
+          "planned_entry_bd": 474.8708487084871,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 474,
+            "SZE": 457,
+            "XZE": 438,
+            "ZZ": 424,
+            "TZE": 415,
+            "QFE": 400,
+            "TA": 382,
+            "JW": 373,
+            "DY": 486,
+            "CZ": 500,
+            "NJS": 515
+          },
+          "planned_departure": {
+            "BBS": 475,
+            "SZE": 458,
+            "XZE": 441,
+            "ZZ": 425,
+            "TZE": 416,
+            "QFE": 403,
+            "TA": 385,
+            "JW": 373,
+            "DY": 487,
+            "CZ": 503,
+            "NJS": 515
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 33
+        }
+      ]
+    },
+    {
+      "macro_id": "M05",
+      "date": "2019-12-30",
+      "density_class": "high",
+      "train_count": 35,
+      "trains": [
+        {
+          "train_id": "G61",
+          "planned_entry_bd": 134.5053380782918,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "TZE",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 134,
+            "SZE": 115,
+            "XZE": 96,
+            "ZZ": 82,
+            "TZE": 71,
+            "QFE": 56,
+            "TA": 38,
+            "JW": 29,
+            "DY": 146,
+            "CZ": 160,
+            "NJS": 173
+          },
+          "planned_departure": {
+            "BBS": 135,
+            "SZE": 118,
+            "XZE": 99,
+            "ZZ": 83,
+            "TZE": 74,
+            "QFE": 59,
+            "TA": 41,
+            "JW": 29,
+            "DY": 147,
+            "CZ": 161,
+            "NJS": 173
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "TZE",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 1
+        },
+        {
+          "train_id": "G7619",
+          "planned_entry_bd": 152.25742574257424,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 151,
+            "SZE": 132,
+            "XZE": 113,
+            "ZZ": 99,
+            "TZE": 90,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 163,
+            "CZ": 177,
+            "NJS": 192
+          },
+          "planned_departure": {
+            "BBS": 152,
+            "SZE": 135,
+            "XZE": 116,
+            "ZZ": 100,
+            "TZE": 91,
+            "QFE": 78,
+            "TA": 62,
+            "JW": 52,
+            "DY": 164,
+            "CZ": 180,
+            "NJS": 192
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 2
+        },
+        {
+          "train_id": "G343",
+          "planned_entry_bd": 157.74377224199287,
+          "recorded_station_codes": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 157,
+            "SZE": 138,
+            "XZE": 119,
+            "ZZ": 103,
+            "TZE": 92,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 169,
+            "CZ": 183,
+            "NJS": 196
+          },
+          "planned_departure": {
+            "BBS": 158,
+            "SZE": 141,
+            "XZE": 122,
+            "ZZ": 106,
+            "TZE": 95,
+            "QFE": 80,
+            "TA": 62,
+            "JW": 52,
+            "DY": 170,
+            "CZ": 184,
+            "NJS": 196
+          },
+          "planned_stops": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 3
+        },
+        {
+          "train_id": "G7299",
+          "planned_entry_bd": 171.54950495049505,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 171,
+            "SZE": 152,
+            "XZE": 133,
+            "ZZ": 119,
+            "TZE": 110,
+            "QFE": 97,
+            "TA": 81,
+            "JW": 72,
+            "DY": 183,
+            "CZ": 197,
+            "NJS": 212
+          },
+          "planned_departure": {
+            "BBS": 172,
+            "SZE": 155,
+            "XZE": 136,
+            "ZZ": 120,
+            "TZE": 111,
+            "QFE": 98,
+            "TA": 82,
+            "JW": 72,
+            "DY": 184,
+            "CZ": 200,
+            "NJS": 212
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 4
+        },
+        {
+          "train_id": "G5",
+          "planned_entry_bd": 173.89274447949526,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 173,
+            "SZE": 156,
+            "XZE": 139,
+            "ZZ": 125,
+            "TZE": 116,
+            "QFE": 103,
+            "TA": 87,
+            "JW": 78,
+            "DY": 185,
+            "CZ": 199,
+            "NJS": 212
+          },
+          "planned_departure": {
+            "BBS": 174,
+            "SZE": 157,
+            "XZE": 140,
+            "ZZ": 126,
+            "TZE": 117,
+            "QFE": 104,
+            "TA": 88,
+            "JW": 78,
+            "DY": 186,
+            "CZ": 200,
+            "NJS": 212
+          },
+          "planned_stops": [],
+          "original_order": 5
+        },
+        {
+          "train_id": "G415",
+          "planned_entry_bd": 194.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 194,
+            "SZE": 177,
+            "XZE": 158,
+            "ZZ": 142,
+            "TZE": 133,
+            "QFE": 120,
+            "TA": 104,
+            "JW": 95,
+            "DY": 206,
+            "CZ": 220,
+            "NJS": 233
+          },
+          "planned_departure": {
+            "BBS": 195,
+            "SZE": 178,
+            "XZE": 161,
+            "ZZ": 145,
+            "TZE": 134,
+            "QFE": 121,
+            "TA": 105,
+            "JW": 95,
+            "DY": 207,
+            "CZ": 221,
+            "NJS": 233
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 6
+        },
+        {
+          "train_id": "G51",
+          "planned_entry_bd": 205.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 205,
+            "SZE": 188,
+            "XZE": 169,
+            "ZZ": 155,
+            "TZE": 144,
+            "QFE": 131,
+            "TA": 113,
+            "JW": 104,
+            "DY": 217,
+            "CZ": 231,
+            "NJS": 244
+          },
+          "planned_departure": {
+            "BBS": 206,
+            "SZE": 189,
+            "XZE": 172,
+            "ZZ": 156,
+            "TZE": 147,
+            "QFE": 132,
+            "TA": 116,
+            "JW": 104,
+            "DY": 218,
+            "CZ": 232,
+            "NJS": 244
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 7
+        },
+        {
+          "train_id": "G101",
+          "planned_entry_bd": 212.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 212,
+            "SZE": 193,
+            "XZE": 176,
+            "ZZ": 160,
+            "TZE": 151,
+            "QFE": 136,
+            "TA": 120,
+            "JW": 111,
+            "DY": 224,
+            "CZ": 238,
+            "NJS": 251
+          },
+          "planned_departure": {
+            "BBS": 213,
+            "SZE": 196,
+            "XZE": 177,
+            "ZZ": 163,
+            "TZE": 152,
+            "QFE": 139,
+            "TA": 121,
+            "JW": 111,
+            "DY": 225,
+            "CZ": 239,
+            "NJS": 251
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "SZE"
+          ],
+          "original_order": 8
+        },
+        {
+          "train_id": "G19",
+          "planned_entry_bd": 227.28075709779182,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 226,
+            "SZE": 209,
+            "XZE": 192,
+            "ZZ": 178,
+            "TZE": 169,
+            "QFE": 156,
+            "TA": 140,
+            "JW": 131,
+            "DY": 238,
+            "CZ": 252,
+            "NJS": 265
+          },
+          "planned_departure": {
+            "BBS": 227,
+            "SZE": 210,
+            "XZE": 193,
+            "ZZ": 179,
+            "TZE": 170,
+            "QFE": 157,
+            "TA": 141,
+            "JW": 131,
+            "DY": 239,
+            "CZ": 253,
+            "NJS": 265
+          },
+          "planned_stops": [],
+          "original_order": 9
+        },
+        {
+          "train_id": "G57",
+          "planned_entry_bd": 244.8861209964413,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 244,
+            "SZE": 225,
+            "XZE": 206,
+            "ZZ": 190,
+            "TZE": 181,
+            "QFE": 168,
+            "TA": 152,
+            "JW": 143,
+            "DY": 256,
+            "CZ": 270,
+            "NJS": 283
+          },
+          "planned_departure": {
+            "BBS": 245,
+            "SZE": 228,
+            "XZE": 209,
+            "ZZ": 193,
+            "TZE": 182,
+            "QFE": 169,
+            "TA": 153,
+            "JW": 143,
+            "DY": 257,
+            "CZ": 271,
+            "NJS": 283
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 10
+        },
+        {
+          "train_id": "G105",
+          "planned_entry_bd": 249.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 249,
+            "SZE": 230,
+            "XZE": 211,
+            "ZZ": 195,
+            "TZE": 186,
+            "QFE": 173,
+            "TA": 157,
+            "JW": 148,
+            "DY": 261,
+            "CZ": 275,
+            "NJS": 288
+          },
+          "planned_departure": {
+            "BBS": 250,
+            "SZE": 233,
+            "XZE": 214,
+            "ZZ": 198,
+            "TZE": 187,
+            "QFE": 174,
+            "TA": 158,
+            "JW": 148,
+            "DY": 262,
+            "CZ": 276,
+            "NJS": 288
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 11
+        },
+        {
+          "train_id": "G143",
+          "planned_entry_bd": 253.38485804416405,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 252,
+            "SZE": 235,
+            "XZE": 218,
+            "ZZ": 204,
+            "TZE": 195,
+            "QFE": 182,
+            "TA": 166,
+            "JW": 157,
+            "DY": 264,
+            "CZ": 278,
+            "NJS": 291
+          },
+          "planned_departure": {
+            "BBS": 253,
+            "SZE": 236,
+            "XZE": 219,
+            "ZZ": 205,
+            "TZE": 196,
+            "QFE": 183,
+            "TA": 167,
+            "JW": 157,
+            "DY": 265,
+            "CZ": 279,
+            "NJS": 291
+          },
+          "planned_stops": [],
+          "original_order": 12
+        },
+        {
+          "train_id": "G107",
+          "planned_entry_bd": 273.42857142857144,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 272,
+            "SZE": 255,
+            "XZE": 236,
+            "ZZ": 220,
+            "TZE": 211,
+            "QFE": 198,
+            "TA": 182,
+            "JW": 173,
+            "DY": 284,
+            "CZ": 298,
+            "NJS": 311
+          },
+          "planned_departure": {
+            "BBS": 273,
+            "SZE": 256,
+            "XZE": 239,
+            "ZZ": 223,
+            "TZE": 212,
+            "QFE": 199,
+            "TA": 183,
+            "JW": 173,
+            "DY": 285,
+            "CZ": 299,
+            "NJS": 311
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 13
+        },
+        {
+          "train_id": "G1",
+          "planned_entry_bd": 287.2807570977918,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 286,
+            "SZE": 269,
+            "XZE": 252,
+            "ZZ": 238,
+            "TZE": 229,
+            "QFE": 216,
+            "TA": 200,
+            "JW": 191,
+            "DY": 298,
+            "CZ": 312,
+            "NJS": 325
+          },
+          "planned_departure": {
+            "BBS": 287,
+            "SZE": 270,
+            "XZE": 253,
+            "ZZ": 239,
+            "TZE": 230,
+            "QFE": 217,
+            "TA": 201,
+            "JW": 191,
+            "DY": 299,
+            "CZ": 313,
+            "NJS": 325
+          },
+          "planned_stops": [],
+          "original_order": 14
+        },
+        {
+          "train_id": "G55",
+          "planned_entry_bd": 296.690036900369,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 296,
+            "SZE": 279,
+            "XZE": 260,
+            "ZZ": 244,
+            "TZE": 235,
+            "QFE": 222,
+            "TA": 206,
+            "JW": 197,
+            "DY": 308,
+            "CZ": 322,
+            "NJS": 337
+          },
+          "planned_departure": {
+            "BBS": 297,
+            "SZE": 280,
+            "XZE": 263,
+            "ZZ": 247,
+            "TZE": 236,
+            "QFE": 223,
+            "TA": 207,
+            "JW": 197,
+            "DY": 309,
+            "CZ": 325,
+            "NJS": 337
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 15
+        },
+        {
+          "train_id": "G109",
+          "planned_entry_bd": 303.5387453874539,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 303,
+            "SZE": 286,
+            "XZE": 267,
+            "ZZ": 251,
+            "TZE": 242,
+            "QFE": 227,
+            "TA": 211,
+            "JW": 202,
+            "DY": 315,
+            "CZ": 329,
+            "NJS": 344
+          },
+          "planned_departure": {
+            "BBS": 304,
+            "SZE": 287,
+            "XZE": 270,
+            "ZZ": 254,
+            "TZE": 243,
+            "QFE": 230,
+            "TA": 212,
+            "JW": 202,
+            "DY": 316,
+            "CZ": 332,
+            "NJS": 344
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 16
+        },
+        {
+          "train_id": "G111",
+          "planned_entry_bd": 309.1139705882353,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "ZZ",
+            "DY",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 308,
+            "SZE": 291,
+            "XZE": 274,
+            "ZZ": 258,
+            "TZE": 249,
+            "QFE": 236,
+            "TA": 218,
+            "JW": 209,
+            "DY": 320,
+            "CZ": 336,
+            "NJS": 349
+          },
+          "planned_departure": {
+            "BBS": 309,
+            "SZE": 292,
+            "XZE": 275,
+            "ZZ": 261,
+            "TZE": 250,
+            "QFE": 237,
+            "TA": 221,
+            "JW": 209,
+            "DY": 323,
+            "CZ": 337,
+            "NJS": 349
+          },
+          "planned_stops": [
+            "TA",
+            "ZZ",
+            "DY"
+          ],
+          "original_order": 17
+        },
+        {
+          "train_id": "G441",
+          "planned_entry_bd": 313.9942857142857,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 313,
+            "SZE": 296,
+            "XZE": 277,
+            "ZZ": 261,
+            "TZE": 252,
+            "QFE": 239,
+            "TA": 223,
+            "JW": 214,
+            "DY": 325,
+            "CZ": 339,
+            "NJS": 352
+          },
+          "planned_departure": {
+            "BBS": 314,
+            "SZE": 297,
+            "XZE": 280,
+            "ZZ": 264,
+            "TZE": 253,
+            "QFE": 240,
+            "TA": 224,
+            "JW": 214,
+            "DY": 326,
+            "CZ": 340,
+            "NJS": 352
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 18
+        },
+        {
+          "train_id": "G113",
+          "planned_entry_bd": 325.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 325,
+            "SZE": 308,
+            "XZE": 289,
+            "ZZ": 275,
+            "TZE": 266,
+            "QFE": 253,
+            "TA": 237,
+            "JW": 228,
+            "DY": 337,
+            "CZ": 351,
+            "NJS": 364
+          },
+          "planned_departure": {
+            "BBS": 326,
+            "SZE": 309,
+            "XZE": 292,
+            "ZZ": 276,
+            "TZE": 267,
+            "QFE": 254,
+            "TA": 238,
+            "JW": 228,
+            "DY": 338,
+            "CZ": 352,
+            "NJS": 364
+          },
+          "planned_stops": [
+            "XZE"
+          ],
+          "original_order": 19
+        },
+        {
+          "train_id": "G211",
+          "planned_entry_bd": 330.2792079207921,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 329,
+            "SZE": 312,
+            "XZE": 295,
+            "ZZ": 281,
+            "TZE": 272,
+            "QFE": 257,
+            "TA": 241,
+            "JW": 232,
+            "DY": 341,
+            "CZ": 355,
+            "NJS": 368
+          },
+          "planned_departure": {
+            "BBS": 330,
+            "SZE": 313,
+            "XZE": 296,
+            "ZZ": 282,
+            "TZE": 273,
+            "QFE": 260,
+            "TA": 242,
+            "JW": 232,
+            "DY": 342,
+            "CZ": 356,
+            "NJS": 368
+          },
+          "planned_stops": [
+            "QFE"
+          ],
+          "original_order": 20
+        },
+        {
+          "train_id": "G41",
+          "planned_entry_bd": 344.46434782608696,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 343,
+            "SZE": 326,
+            "XZE": 309,
+            "ZZ": 295,
+            "TZE": 286,
+            "QFE": 273,
+            "TA": 255,
+            "JW": 246,
+            "DY": 355,
+            "CZ": 369,
+            "NJS": 382
+          },
+          "planned_departure": {
+            "BBS": 344,
+            "SZE": 327,
+            "XZE": 310,
+            "ZZ": 296,
+            "TZE": 287,
+            "QFE": 274,
+            "TA": 258,
+            "JW": 246,
+            "DY": 356,
+            "CZ": 370,
+            "NJS": 382
+          },
+          "planned_stops": [
+            "TA"
+          ],
+          "original_order": 21
+        },
+        {
+          "train_id": "G7",
+          "planned_entry_bd": 346.58675078864354,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 346,
+            "SZE": 329,
+            "XZE": 312,
+            "ZZ": 298,
+            "TZE": 289,
+            "QFE": 276,
+            "TA": 260,
+            "JW": 251,
+            "DY": 358,
+            "CZ": 372,
+            "NJS": 385
+          },
+          "planned_departure": {
+            "BBS": 347,
+            "SZE": 330,
+            "XZE": 313,
+            "ZZ": 299,
+            "TZE": 290,
+            "QFE": 277,
+            "TA": 261,
+            "JW": 251,
+            "DY": 359,
+            "CZ": 373,
+            "NJS": 385
+          },
+          "planned_stops": [],
+          "original_order": 22
+        },
+        {
+          "train_id": "G115",
+          "planned_entry_bd": 356.576512455516,
+          "recorded_station_codes": [
+            "JW",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 356,
+            "SZE": 337,
+            "XZE": 320,
+            "ZZ": 306,
+            "TZE": 297,
+            "QFE": 284,
+            "TA": 268,
+            "JW": 259,
+            "DY": 368,
+            "CZ": 382,
+            "NJS": 395
+          },
+          "planned_departure": {
+            "BBS": 357,
+            "SZE": 340,
+            "XZE": 321,
+            "ZZ": 307,
+            "TZE": 298,
+            "QFE": 285,
+            "TA": 269,
+            "JW": 259,
+            "DY": 369,
+            "CZ": 383,
+            "NJS": 395
+          },
+          "planned_stops": [
+            "SZE"
+          ],
+          "original_order": 23
+        },
+        {
+          "train_id": "G1813",
+          "planned_entry_bd": 368.2669039145907,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 367,
+            "SZE": 348,
+            "XZE": 329,
+            "ZZ": 315,
+            "TZE": 306,
+            "QFE": 293,
+            "TA": 277,
+            "JW": 268,
+            "DY": 379,
+            "CZ": 393,
+            "NJS": 406
+          },
+          "planned_departure": {
+            "BBS": 368,
+            "SZE": 351,
+            "XZE": 332,
+            "ZZ": 316,
+            "TZE": 307,
+            "QFE": 294,
+            "TA": 278,
+            "JW": 268,
+            "DY": 380,
+            "CZ": 394,
+            "NJS": 406
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 24
+        },
+        {
+          "train_id": "G117",
+          "planned_entry_bd": 378.52095808383234,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 378,
+            "SZE": 361,
+            "XZE": 344,
+            "ZZ": 328,
+            "TZE": 319,
+            "QFE": 306,
+            "TA": 290,
+            "JW": 281,
+            "DY": 390,
+            "CZ": 404,
+            "NJS": 419
+          },
+          "planned_departure": {
+            "BBS": 379,
+            "SZE": 362,
+            "XZE": 345,
+            "ZZ": 331,
+            "TZE": 320,
+            "QFE": 307,
+            "TA": 291,
+            "JW": 281,
+            "DY": 391,
+            "CZ": 407,
+            "NJS": 419
+          },
+          "planned_stops": [
+            "ZZ",
+            "CZ"
+          ],
+          "original_order": 25
+        },
+        {
+          "train_id": "G445",
+          "planned_entry_bd": 388.12857142857143,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "DY",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 387,
+            "SZE": 368,
+            "XZE": 349,
+            "ZZ": 333,
+            "TZE": 324,
+            "QFE": 309,
+            "TA": 291,
+            "JW": 282,
+            "DY": 399,
+            "CZ": 415,
+            "NJS": 430
+          },
+          "planned_departure": {
+            "BBS": 388,
+            "SZE": 371,
+            "XZE": 352,
+            "ZZ": 336,
+            "TZE": 325,
+            "QFE": 312,
+            "TA": 294,
+            "JW": 282,
+            "DY": 402,
+            "CZ": 418,
+            "NJS": 430
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "DY",
+            "CZ"
+          ],
+          "original_order": 26
+        },
+        {
+          "train_id": "G33",
+          "planned_entry_bd": 394.88612099644126,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 394,
+            "SZE": 375,
+            "XZE": 356,
+            "ZZ": 342,
+            "TZE": 333,
+            "QFE": 318,
+            "TA": 302,
+            "JW": 293,
+            "DY": 406,
+            "CZ": 420,
+            "NJS": 433
+          },
+          "planned_departure": {
+            "BBS": 395,
+            "SZE": 378,
+            "XZE": 359,
+            "ZZ": 343,
+            "TZE": 334,
+            "QFE": 321,
+            "TA": 303,
+            "JW": 293,
+            "DY": 407,
+            "CZ": 421,
+            "NJS": 433
+          },
+          "planned_stops": [
+            "QFE",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 27
+        },
+        {
+          "train_id": "G119",
+          "planned_entry_bd": 402.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 402,
+            "SZE": 385,
+            "XZE": 366,
+            "ZZ": 350,
+            "TZE": 341,
+            "QFE": 326,
+            "TA": 310,
+            "JW": 301,
+            "DY": 414,
+            "CZ": 428,
+            "NJS": 441
+          },
+          "planned_departure": {
+            "BBS": 403,
+            "SZE": 386,
+            "XZE": 369,
+            "ZZ": 353,
+            "TZE": 342,
+            "QFE": 329,
+            "TA": 311,
+            "JW": 301,
+            "DY": 415,
+            "CZ": 429,
+            "NJS": 441
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 28
+        },
+        {
+          "train_id": "G31",
+          "planned_entry_bd": 413.30857142857144,
+          "recorded_station_codes": [
+            "JW",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 412,
+            "SZE": 395,
+            "XZE": 376,
+            "ZZ": 362,
+            "TZE": 353,
+            "QFE": 340,
+            "TA": 324,
+            "JW": 315,
+            "DY": 424,
+            "CZ": 438,
+            "NJS": 451
+          },
+          "planned_departure": {
+            "BBS": 413,
+            "SZE": 396,
+            "XZE": 379,
+            "ZZ": 363,
+            "TZE": 354,
+            "QFE": 341,
+            "TA": 325,
+            "JW": 315,
+            "DY": 425,
+            "CZ": 439,
+            "NJS": 451
+          },
+          "planned_stops": [
+            "XZE"
+          ],
+          "original_order": 29
+        },
+        {
+          "train_id": "G213",
+          "planned_entry_bd": 425.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 425,
+            "SZE": 408,
+            "XZE": 389,
+            "ZZ": 375,
+            "TZE": 364,
+            "QFE": 351,
+            "TA": 333,
+            "JW": 324,
+            "DY": 437,
+            "CZ": 451,
+            "NJS": 464
+          },
+          "planned_departure": {
+            "BBS": 426,
+            "SZE": 409,
+            "XZE": 392,
+            "ZZ": 376,
+            "TZE": 367,
+            "QFE": 352,
+            "TA": 336,
+            "JW": 324,
+            "DY": 438,
+            "CZ": 452,
+            "NJS": 464
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 30
+        },
+        {
+          "train_id": "G121",
+          "planned_entry_bd": 434.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 434,
+            "SZE": 417,
+            "XZE": 398,
+            "ZZ": 384,
+            "TZE": 375,
+            "QFE": 360,
+            "TA": 344,
+            "JW": 335,
+            "DY": 446,
+            "CZ": 460,
+            "NJS": 473
+          },
+          "planned_departure": {
+            "BBS": 435,
+            "SZE": 418,
+            "XZE": 401,
+            "ZZ": 385,
+            "TZE": 376,
+            "QFE": 363,
+            "TA": 345,
+            "JW": 335,
+            "DY": 447,
+            "CZ": 461,
+            "NJS": 473
+          },
+          "planned_stops": [
+            "QFE",
+            "XZE"
+          ],
+          "original_order": 31
+        },
+        {
+          "train_id": "G123",
+          "planned_entry_bd": 451.13317191283295,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 450,
+            "SZE": 433,
+            "XZE": 416,
+            "ZZ": 400,
+            "TZE": 391,
+            "QFE": 378,
+            "TA": 362,
+            "JW": 353,
+            "DY": 462,
+            "CZ": 476,
+            "NJS": 489
+          },
+          "planned_departure": {
+            "BBS": 451,
+            "SZE": 434,
+            "XZE": 417,
+            "ZZ": 403,
+            "TZE": 392,
+            "QFE": 379,
+            "TA": 363,
+            "JW": 353,
+            "DY": 463,
+            "CZ": 477,
+            "NJS": 489
+          },
+          "planned_stops": [
+            "ZZ"
+          ],
+          "original_order": 32
+        },
+        {
+          "train_id": "G125",
+          "planned_entry_bd": 464.24257425742576,
+          "recorded_station_codes": [
+            "JW",
+            "TZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 463,
+            "SZE": 444,
+            "XZE": 427,
+            "ZZ": 413,
+            "TZE": 402,
+            "QFE": 389,
+            "TA": 373,
+            "JW": 364,
+            "DY": 475,
+            "CZ": 489,
+            "NJS": 504
+          },
+          "planned_departure": {
+            "BBS": 464,
+            "SZE": 447,
+            "XZE": 428,
+            "ZZ": 414,
+            "TZE": 405,
+            "QFE": 390,
+            "TA": 374,
+            "JW": 364,
+            "DY": 476,
+            "CZ": 492,
+            "NJS": 504
+          },
+          "planned_stops": [
+            "TZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 33
+        },
+        {
+          "train_id": "G9",
+          "planned_entry_bd": 473.89274447949526,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 473,
+            "SZE": 456,
+            "XZE": 439,
+            "ZZ": 425,
+            "TZE": 416,
+            "QFE": 403,
+            "TA": 387,
+            "JW": 378,
+            "DY": 485,
+            "CZ": 499,
+            "NJS": 512
+          },
+          "planned_departure": {
+            "BBS": 474,
+            "SZE": 457,
+            "XZE": 440,
+            "ZZ": 426,
+            "TZE": 417,
+            "QFE": 404,
+            "TA": 388,
+            "JW": 378,
+            "DY": 486,
+            "CZ": 500,
+            "NJS": 512
+          },
+          "planned_stops": [],
+          "original_order": 34
+        },
+        {
+          "train_id": "G163",
+          "planned_entry_bd": 474.8708487084871,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 474,
+            "SZE": 457,
+            "XZE": 438,
+            "ZZ": 424,
+            "TZE": 415,
+            "QFE": 400,
+            "TA": 382,
+            "JW": 373,
+            "DY": 486,
+            "CZ": 500,
+            "NJS": 515
+          },
+          "planned_departure": {
+            "BBS": 475,
+            "SZE": 458,
+            "XZE": 441,
+            "ZZ": 425,
+            "TZE": 416,
+            "QFE": 403,
+            "TA": 385,
+            "JW": 373,
+            "DY": 487,
+            "CZ": 503,
+            "NJS": 515
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 35
+        }
+      ]
+    },
+    {
+      "macro_id": "M06",
+      "date": "2020-01-10",
+      "density_class": "very-high",
+      "train_count": 37,
+      "trains": [
+        {
+          "train_id": "G61",
+          "planned_entry_bd": 134.5053380782918,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "TZE",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 134,
+            "SZE": 115,
+            "XZE": 96,
+            "ZZ": 82,
+            "TZE": 71,
+            "QFE": 56,
+            "TA": 38,
+            "JW": 29,
+            "DY": 146,
+            "CZ": 160,
+            "NJS": 173
+          },
+          "planned_departure": {
+            "BBS": 135,
+            "SZE": 118,
+            "XZE": 99,
+            "ZZ": 83,
+            "TZE": 74,
+            "QFE": 59,
+            "TA": 41,
+            "JW": 29,
+            "DY": 147,
+            "CZ": 161,
+            "NJS": 173
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "TZE",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 1
+        },
+        {
+          "train_id": "G7619",
+          "planned_entry_bd": 152.25742574257424,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 151,
+            "SZE": 132,
+            "XZE": 113,
+            "ZZ": 99,
+            "TZE": 90,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 163,
+            "CZ": 177,
+            "NJS": 192
+          },
+          "planned_departure": {
+            "BBS": 152,
+            "SZE": 135,
+            "XZE": 116,
+            "ZZ": 100,
+            "TZE": 91,
+            "QFE": 78,
+            "TA": 62,
+            "JW": 52,
+            "DY": 164,
+            "CZ": 180,
+            "NJS": 192
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 2
+        },
+        {
+          "train_id": "G343",
+          "planned_entry_bd": 157.74377224199287,
+          "recorded_station_codes": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 157,
+            "SZE": 138,
+            "XZE": 119,
+            "ZZ": 103,
+            "TZE": 92,
+            "QFE": 77,
+            "TA": 61,
+            "JW": 52,
+            "DY": 169,
+            "CZ": 183,
+            "NJS": 196
+          },
+          "planned_departure": {
+            "BBS": 158,
+            "SZE": 141,
+            "XZE": 122,
+            "ZZ": 106,
+            "TZE": 95,
+            "QFE": 80,
+            "TA": 62,
+            "JW": 52,
+            "DY": 170,
+            "CZ": 184,
+            "NJS": 196
+          },
+          "planned_stops": [
+            "QFE",
+            "TZE",
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 3
+        },
+        {
+          "train_id": "G7299",
+          "planned_entry_bd": 171.54950495049505,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 171,
+            "SZE": 152,
+            "XZE": 133,
+            "ZZ": 119,
+            "TZE": 110,
+            "QFE": 97,
+            "TA": 81,
+            "JW": 72,
+            "DY": 183,
+            "CZ": 197,
+            "NJS": 212
+          },
+          "planned_departure": {
+            "BBS": 172,
+            "SZE": 155,
+            "XZE": 136,
+            "ZZ": 120,
+            "TZE": 111,
+            "QFE": 98,
+            "TA": 82,
+            "JW": 72,
+            "DY": 184,
+            "CZ": 200,
+            "NJS": 212
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 4
+        },
+        {
+          "train_id": "G5",
+          "planned_entry_bd": 173.89274447949526,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 173,
+            "SZE": 156,
+            "XZE": 139,
+            "ZZ": 125,
+            "TZE": 116,
+            "QFE": 103,
+            "TA": 87,
+            "JW": 78,
+            "DY": 185,
+            "CZ": 199,
+            "NJS": 212
+          },
+          "planned_departure": {
+            "BBS": 174,
+            "SZE": 157,
+            "XZE": 140,
+            "ZZ": 126,
+            "TZE": 117,
+            "QFE": 104,
+            "TA": 88,
+            "JW": 78,
+            "DY": 186,
+            "CZ": 200,
+            "NJS": 212
+          },
+          "planned_stops": [],
+          "original_order": 5
+        },
+        {
+          "train_id": "G415",
+          "planned_entry_bd": 194.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 194,
+            "SZE": 177,
+            "XZE": 158,
+            "ZZ": 142,
+            "TZE": 133,
+            "QFE": 120,
+            "TA": 104,
+            "JW": 95,
+            "DY": 206,
+            "CZ": 220,
+            "NJS": 233
+          },
+          "planned_departure": {
+            "BBS": 195,
+            "SZE": 178,
+            "XZE": 161,
+            "ZZ": 145,
+            "TZE": 134,
+            "QFE": 121,
+            "TA": 105,
+            "JW": 95,
+            "DY": 207,
+            "CZ": 221,
+            "NJS": 233
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 6
+        },
+        {
+          "train_id": "G51",
+          "planned_entry_bd": 205.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 205,
+            "SZE": 188,
+            "XZE": 169,
+            "ZZ": 155,
+            "TZE": 144,
+            "QFE": 131,
+            "TA": 113,
+            "JW": 104,
+            "DY": 217,
+            "CZ": 231,
+            "NJS": 244
+          },
+          "planned_departure": {
+            "BBS": 206,
+            "SZE": 189,
+            "XZE": 172,
+            "ZZ": 156,
+            "TZE": 147,
+            "QFE": 132,
+            "TA": 116,
+            "JW": 104,
+            "DY": 218,
+            "CZ": 232,
+            "NJS": 244
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 7
+        },
+        {
+          "train_id": "G101",
+          "planned_entry_bd": 212.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 212,
+            "SZE": 193,
+            "XZE": 176,
+            "ZZ": 160,
+            "TZE": 151,
+            "QFE": 136,
+            "TA": 120,
+            "JW": 111,
+            "DY": 224,
+            "CZ": 238,
+            "NJS": 251
+          },
+          "planned_departure": {
+            "BBS": 213,
+            "SZE": 196,
+            "XZE": 177,
+            "ZZ": 163,
+            "TZE": 152,
+            "QFE": 139,
+            "TA": 121,
+            "JW": 111,
+            "DY": 225,
+            "CZ": 239,
+            "NJS": 251
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "SZE"
+          ],
+          "original_order": 8
+        },
+        {
+          "train_id": "G103",
+          "planned_entry_bd": 219.11439114391143,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "ZZ",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 218,
+            "SZE": 201,
+            "XZE": 182,
+            "ZZ": 166,
+            "TZE": 157,
+            "QFE": 144,
+            "TA": 126,
+            "JW": 117,
+            "DY": 230,
+            "CZ": 244,
+            "NJS": 259
+          },
+          "planned_departure": {
+            "BBS": 219,
+            "SZE": 202,
+            "XZE": 185,
+            "ZZ": 169,
+            "TZE": 158,
+            "QFE": 145,
+            "TA": 129,
+            "JW": 117,
+            "DY": 231,
+            "CZ": 247,
+            "NJS": 259
+          },
+          "planned_stops": [
+            "TA",
+            "ZZ",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 9
+        },
+        {
+          "train_id": "G19",
+          "planned_entry_bd": 227.28075709779182,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 226,
+            "SZE": 209,
+            "XZE": 192,
+            "ZZ": 178,
+            "TZE": 169,
+            "QFE": 156,
+            "TA": 140,
+            "JW": 131,
+            "DY": 238,
+            "CZ": 252,
+            "NJS": 265
+          },
+          "planned_departure": {
+            "BBS": 227,
+            "SZE": 210,
+            "XZE": 193,
+            "ZZ": 179,
+            "TZE": 170,
+            "QFE": 157,
+            "TA": 141,
+            "JW": 131,
+            "DY": 239,
+            "CZ": 253,
+            "NJS": 265
+          },
+          "planned_stops": [],
+          "original_order": 10
+        },
+        {
+          "train_id": "G57",
+          "planned_entry_bd": 244.8861209964413,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 244,
+            "SZE": 225,
+            "XZE": 206,
+            "ZZ": 190,
+            "TZE": 181,
+            "QFE": 168,
+            "TA": 152,
+            "JW": 143,
+            "DY": 256,
+            "CZ": 270,
+            "NJS": 283
+          },
+          "planned_departure": {
+            "BBS": 245,
+            "SZE": 228,
+            "XZE": 209,
+            "ZZ": 193,
+            "TZE": 182,
+            "QFE": 169,
+            "TA": 153,
+            "JW": 143,
+            "DY": 257,
+            "CZ": 271,
+            "NJS": 283
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 11
+        },
+        {
+          "train_id": "G105",
+          "planned_entry_bd": 249.57651245551602,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 249,
+            "SZE": 230,
+            "XZE": 211,
+            "ZZ": 195,
+            "TZE": 186,
+            "QFE": 173,
+            "TA": 157,
+            "JW": 148,
+            "DY": 261,
+            "CZ": 275,
+            "NJS": 288
+          },
+          "planned_departure": {
+            "BBS": 250,
+            "SZE": 233,
+            "XZE": 214,
+            "ZZ": 198,
+            "TZE": 187,
+            "QFE": 174,
+            "TA": 158,
+            "JW": 148,
+            "DY": 262,
+            "CZ": 276,
+            "NJS": 288
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 12
+        },
+        {
+          "train_id": "G143",
+          "planned_entry_bd": 253.38485804416405,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 252,
+            "SZE": 235,
+            "XZE": 218,
+            "ZZ": 204,
+            "TZE": 195,
+            "QFE": 182,
+            "TA": 166,
+            "JW": 157,
+            "DY": 264,
+            "CZ": 278,
+            "NJS": 291
+          },
+          "planned_departure": {
+            "BBS": 253,
+            "SZE": 236,
+            "XZE": 219,
+            "ZZ": 205,
+            "TZE": 196,
+            "QFE": 183,
+            "TA": 167,
+            "JW": 157,
+            "DY": 265,
+            "CZ": 279,
+            "NJS": 291
+          },
+          "planned_stops": [],
+          "original_order": 13
+        },
+        {
+          "train_id": "G107",
+          "planned_entry_bd": 273.42857142857144,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 272,
+            "SZE": 255,
+            "XZE": 236,
+            "ZZ": 220,
+            "TZE": 211,
+            "QFE": 198,
+            "TA": 182,
+            "JW": 173,
+            "DY": 284,
+            "CZ": 298,
+            "NJS": 311
+          },
+          "planned_departure": {
+            "BBS": 273,
+            "SZE": 256,
+            "XZE": 239,
+            "ZZ": 223,
+            "TZE": 212,
+            "QFE": 199,
+            "TA": 183,
+            "JW": 173,
+            "DY": 285,
+            "CZ": 299,
+            "NJS": 311
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 14
+        },
+        {
+          "train_id": "G165",
+          "planned_entry_bd": 277.9968454258675,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 277,
+            "SZE": 260,
+            "XZE": 243,
+            "ZZ": 229,
+            "TZE": 220,
+            "QFE": 207,
+            "TA": 191,
+            "JW": 182,
+            "DY": 289,
+            "CZ": 303,
+            "NJS": 316
+          },
+          "planned_departure": {
+            "BBS": 278,
+            "SZE": 261,
+            "XZE": 244,
+            "ZZ": 230,
+            "TZE": 221,
+            "QFE": 208,
+            "TA": 192,
+            "JW": 182,
+            "DY": 290,
+            "CZ": 304,
+            "NJS": 316
+          },
+          "planned_stops": [],
+          "original_order": 15
+        },
+        {
+          "train_id": "G1",
+          "planned_entry_bd": 287.2807570977918,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 286,
+            "SZE": 269,
+            "XZE": 252,
+            "ZZ": 238,
+            "TZE": 229,
+            "QFE": 216,
+            "TA": 200,
+            "JW": 191,
+            "DY": 298,
+            "CZ": 312,
+            "NJS": 325
+          },
+          "planned_departure": {
+            "BBS": 287,
+            "SZE": 270,
+            "XZE": 253,
+            "ZZ": 239,
+            "TZE": 230,
+            "QFE": 217,
+            "TA": 201,
+            "JW": 191,
+            "DY": 299,
+            "CZ": 313,
+            "NJS": 325
+          },
+          "planned_stops": [],
+          "original_order": 16
+        },
+        {
+          "train_id": "G55",
+          "planned_entry_bd": 296.690036900369,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 296,
+            "SZE": 279,
+            "XZE": 260,
+            "ZZ": 244,
+            "TZE": 235,
+            "QFE": 222,
+            "TA": 206,
+            "JW": 197,
+            "DY": 308,
+            "CZ": 322,
+            "NJS": 337
+          },
+          "planned_departure": {
+            "BBS": 297,
+            "SZE": 280,
+            "XZE": 263,
+            "ZZ": 247,
+            "TZE": 236,
+            "QFE": 223,
+            "TA": 207,
+            "JW": 197,
+            "DY": 309,
+            "CZ": 325,
+            "NJS": 337
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 17
+        },
+        {
+          "train_id": "G109",
+          "planned_entry_bd": 303.5387453874539,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 303,
+            "SZE": 286,
+            "XZE": 267,
+            "ZZ": 251,
+            "TZE": 242,
+            "QFE": 227,
+            "TA": 211,
+            "JW": 202,
+            "DY": 315,
+            "CZ": 329,
+            "NJS": 344
+          },
+          "planned_departure": {
+            "BBS": 304,
+            "SZE": 287,
+            "XZE": 270,
+            "ZZ": 254,
+            "TZE": 243,
+            "QFE": 230,
+            "TA": 212,
+            "JW": 202,
+            "DY": 316,
+            "CZ": 332,
+            "NJS": 344
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 18
+        },
+        {
+          "train_id": "G111",
+          "planned_entry_bd": 309.1139705882353,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "ZZ",
+            "DY",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 308,
+            "SZE": 291,
+            "XZE": 274,
+            "ZZ": 258,
+            "TZE": 249,
+            "QFE": 236,
+            "TA": 218,
+            "JW": 209,
+            "DY": 320,
+            "CZ": 336,
+            "NJS": 349
+          },
+          "planned_departure": {
+            "BBS": 309,
+            "SZE": 292,
+            "XZE": 275,
+            "ZZ": 261,
+            "TZE": 250,
+            "QFE": 237,
+            "TA": 221,
+            "JW": 209,
+            "DY": 323,
+            "CZ": 337,
+            "NJS": 349
+          },
+          "planned_stops": [
+            "TA",
+            "ZZ",
+            "DY"
+          ],
+          "original_order": 19
+        },
+        {
+          "train_id": "G441",
+          "planned_entry_bd": 313.9942857142857,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 313,
+            "SZE": 296,
+            "XZE": 277,
+            "ZZ": 261,
+            "TZE": 252,
+            "QFE": 239,
+            "TA": 223,
+            "JW": 214,
+            "DY": 325,
+            "CZ": 339,
+            "NJS": 352
+          },
+          "planned_departure": {
+            "BBS": 314,
+            "SZE": 297,
+            "XZE": 280,
+            "ZZ": 264,
+            "TZE": 253,
+            "QFE": 240,
+            "TA": 224,
+            "JW": 214,
+            "DY": 326,
+            "CZ": 340,
+            "NJS": 352
+          },
+          "planned_stops": [
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 20
+        },
+        {
+          "train_id": "G113",
+          "planned_entry_bd": 325.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 325,
+            "SZE": 308,
+            "XZE": 289,
+            "ZZ": 275,
+            "TZE": 266,
+            "QFE": 253,
+            "TA": 237,
+            "JW": 228,
+            "DY": 337,
+            "CZ": 351,
+            "NJS": 364
+          },
+          "planned_departure": {
+            "BBS": 326,
+            "SZE": 309,
+            "XZE": 292,
+            "ZZ": 276,
+            "TZE": 267,
+            "QFE": 254,
+            "TA": 238,
+            "JW": 228,
+            "DY": 338,
+            "CZ": 352,
+            "NJS": 364
+          },
+          "planned_stops": [
+            "XZE"
+          ],
+          "original_order": 21
+        },
+        {
+          "train_id": "G211",
+          "planned_entry_bd": 330.2792079207921,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 329,
+            "SZE": 312,
+            "XZE": 295,
+            "ZZ": 281,
+            "TZE": 272,
+            "QFE": 257,
+            "TA": 241,
+            "JW": 232,
+            "DY": 341,
+            "CZ": 355,
+            "NJS": 368
+          },
+          "planned_departure": {
+            "BBS": 330,
+            "SZE": 313,
+            "XZE": 296,
+            "ZZ": 282,
+            "TZE": 273,
+            "QFE": 260,
+            "TA": 242,
+            "JW": 232,
+            "DY": 342,
+            "CZ": 356,
+            "NJS": 368
+          },
+          "planned_stops": [
+            "QFE"
+          ],
+          "original_order": 22
+        },
+        {
+          "train_id": "G41",
+          "planned_entry_bd": 344.46434782608696,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 343,
+            "SZE": 326,
+            "XZE": 309,
+            "ZZ": 295,
+            "TZE": 286,
+            "QFE": 273,
+            "TA": 255,
+            "JW": 246,
+            "DY": 355,
+            "CZ": 369,
+            "NJS": 382
+          },
+          "planned_departure": {
+            "BBS": 344,
+            "SZE": 327,
+            "XZE": 310,
+            "ZZ": 296,
+            "TZE": 287,
+            "QFE": 274,
+            "TA": 258,
+            "JW": 246,
+            "DY": 356,
+            "CZ": 370,
+            "NJS": 382
+          },
+          "planned_stops": [
+            "TA"
+          ],
+          "original_order": 23
+        },
+        {
+          "train_id": "G7",
+          "planned_entry_bd": 346.58675078864354,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 346,
+            "SZE": 329,
+            "XZE": 312,
+            "ZZ": 298,
+            "TZE": 289,
+            "QFE": 276,
+            "TA": 260,
+            "JW": 251,
+            "DY": 358,
+            "CZ": 372,
+            "NJS": 385
+          },
+          "planned_departure": {
+            "BBS": 347,
+            "SZE": 330,
+            "XZE": 313,
+            "ZZ": 299,
+            "TZE": 290,
+            "QFE": 277,
+            "TA": 261,
+            "JW": 251,
+            "DY": 359,
+            "CZ": 373,
+            "NJS": 385
+          },
+          "planned_stops": [],
+          "original_order": 24
+        },
+        {
+          "train_id": "G115",
+          "planned_entry_bd": 356.576512455516,
+          "recorded_station_codes": [
+            "JW",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 356,
+            "SZE": 337,
+            "XZE": 320,
+            "ZZ": 306,
+            "TZE": 297,
+            "QFE": 284,
+            "TA": 268,
+            "JW": 259,
+            "DY": 368,
+            "CZ": 382,
+            "NJS": 395
+          },
+          "planned_departure": {
+            "BBS": 357,
+            "SZE": 340,
+            "XZE": 321,
+            "ZZ": 307,
+            "TZE": 298,
+            "QFE": 285,
+            "TA": 269,
+            "JW": 259,
+            "DY": 369,
+            "CZ": 383,
+            "NJS": 395
+          },
+          "planned_stops": [
+            "SZE"
+          ],
+          "original_order": 25
+        },
+        {
+          "train_id": "G1813",
+          "planned_entry_bd": 368.2669039145907,
+          "recorded_station_codes": [
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 367,
+            "SZE": 348,
+            "XZE": 329,
+            "ZZ": 315,
+            "TZE": 306,
+            "QFE": 293,
+            "TA": 277,
+            "JW": 268,
+            "DY": 379,
+            "CZ": 393,
+            "NJS": 406
+          },
+          "planned_departure": {
+            "BBS": 368,
+            "SZE": 351,
+            "XZE": 332,
+            "ZZ": 316,
+            "TZE": 307,
+            "QFE": 294,
+            "TA": 278,
+            "JW": 268,
+            "DY": 380,
+            "CZ": 394,
+            "NJS": 406
+          },
+          "planned_stops": [
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 26
+        },
+        {
+          "train_id": "G117",
+          "planned_entry_bd": 378.52095808383234,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 378,
+            "SZE": 361,
+            "XZE": 344,
+            "ZZ": 328,
+            "TZE": 319,
+            "QFE": 306,
+            "TA": 290,
+            "JW": 281,
+            "DY": 390,
+            "CZ": 404,
+            "NJS": 419
+          },
+          "planned_departure": {
+            "BBS": 379,
+            "SZE": 362,
+            "XZE": 345,
+            "ZZ": 331,
+            "TZE": 320,
+            "QFE": 307,
+            "TA": 291,
+            "JW": 281,
+            "DY": 391,
+            "CZ": 407,
+            "NJS": 419
+          },
+          "planned_stops": [
+            "ZZ",
+            "CZ"
+          ],
+          "original_order": 27
+        },
+        {
+          "train_id": "G445",
+          "planned_entry_bd": 388.12857142857143,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "DY",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 387,
+            "SZE": 368,
+            "XZE": 349,
+            "ZZ": 333,
+            "TZE": 324,
+            "QFE": 309,
+            "TA": 291,
+            "JW": 282,
+            "DY": 399,
+            "CZ": 415,
+            "NJS": 430
+          },
+          "planned_departure": {
+            "BBS": 388,
+            "SZE": 371,
+            "XZE": 352,
+            "ZZ": 336,
+            "TZE": 325,
+            "QFE": 312,
+            "TA": 294,
+            "JW": 282,
+            "DY": 402,
+            "CZ": 418,
+            "NJS": 430
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "SZE",
+            "DY",
+            "CZ"
+          ],
+          "original_order": 28
+        },
+        {
+          "train_id": "G33",
+          "planned_entry_bd": 394.88612099644126,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "XZE",
+            "SZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 394,
+            "SZE": 375,
+            "XZE": 356,
+            "ZZ": 342,
+            "TZE": 333,
+            "QFE": 318,
+            "TA": 302,
+            "JW": 293,
+            "DY": 406,
+            "CZ": 420,
+            "NJS": 433
+          },
+          "planned_departure": {
+            "BBS": 395,
+            "SZE": 378,
+            "XZE": 359,
+            "ZZ": 343,
+            "TZE": 334,
+            "QFE": 321,
+            "TA": 303,
+            "JW": 293,
+            "DY": 407,
+            "CZ": 421,
+            "NJS": 433
+          },
+          "planned_stops": [
+            "QFE",
+            "XZE",
+            "SZE"
+          ],
+          "original_order": 29
+        },
+        {
+          "train_id": "G119",
+          "planned_entry_bd": 402.65714285714284,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "ZZ",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 402,
+            "SZE": 385,
+            "XZE": 366,
+            "ZZ": 350,
+            "TZE": 341,
+            "QFE": 326,
+            "TA": 310,
+            "JW": 301,
+            "DY": 414,
+            "CZ": 428,
+            "NJS": 441
+          },
+          "planned_departure": {
+            "BBS": 403,
+            "SZE": 386,
+            "XZE": 369,
+            "ZZ": 353,
+            "TZE": 342,
+            "QFE": 329,
+            "TA": 311,
+            "JW": 301,
+            "DY": 415,
+            "CZ": 429,
+            "NJS": 441
+          },
+          "planned_stops": [
+            "QFE",
+            "ZZ",
+            "XZE"
+          ],
+          "original_order": 30
+        },
+        {
+          "train_id": "G31",
+          "planned_entry_bd": 413.30857142857144,
+          "recorded_station_codes": [
+            "JW",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 412,
+            "SZE": 395,
+            "XZE": 376,
+            "ZZ": 362,
+            "TZE": 353,
+            "QFE": 340,
+            "TA": 324,
+            "JW": 315,
+            "DY": 424,
+            "CZ": 438,
+            "NJS": 451
+          },
+          "planned_departure": {
+            "BBS": 413,
+            "SZE": 396,
+            "XZE": 379,
+            "ZZ": 363,
+            "TZE": 354,
+            "QFE": 341,
+            "TA": 325,
+            "JW": 315,
+            "DY": 425,
+            "CZ": 439,
+            "NJS": 451
+          },
+          "planned_stops": [
+            "XZE"
+          ],
+          "original_order": 31
+        },
+        {
+          "train_id": "G213",
+          "planned_entry_bd": 425.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "TZE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 425,
+            "SZE": 408,
+            "XZE": 389,
+            "ZZ": 375,
+            "TZE": 364,
+            "QFE": 351,
+            "TA": 333,
+            "JW": 324,
+            "DY": 437,
+            "CZ": 451,
+            "NJS": 464
+          },
+          "planned_departure": {
+            "BBS": 426,
+            "SZE": 409,
+            "XZE": 392,
+            "ZZ": 376,
+            "TZE": 367,
+            "QFE": 352,
+            "TA": 336,
+            "JW": 324,
+            "DY": 438,
+            "CZ": 452,
+            "NJS": 464
+          },
+          "planned_stops": [
+            "TA",
+            "TZE",
+            "XZE"
+          ],
+          "original_order": 32
+        },
+        {
+          "train_id": "G121",
+          "planned_entry_bd": 434.98285714285714,
+          "recorded_station_codes": [
+            "JW",
+            "QFE",
+            "XZE",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 434,
+            "SZE": 417,
+            "XZE": 398,
+            "ZZ": 384,
+            "TZE": 375,
+            "QFE": 360,
+            "TA": 344,
+            "JW": 335,
+            "DY": 446,
+            "CZ": 460,
+            "NJS": 473
+          },
+          "planned_departure": {
+            "BBS": 435,
+            "SZE": 418,
+            "XZE": 401,
+            "ZZ": 385,
+            "TZE": 376,
+            "QFE": 363,
+            "TA": 345,
+            "JW": 335,
+            "DY": 447,
+            "CZ": 461,
+            "NJS": 473
+          },
+          "planned_stops": [
+            "QFE",
+            "XZE"
+          ],
+          "original_order": 33
+        },
+        {
+          "train_id": "G123",
+          "planned_entry_bd": 451.13317191283295,
+          "recorded_station_codes": [
+            "JW",
+            "ZZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 450,
+            "SZE": 433,
+            "XZE": 416,
+            "ZZ": 400,
+            "TZE": 391,
+            "QFE": 378,
+            "TA": 362,
+            "JW": 353,
+            "DY": 462,
+            "CZ": 476,
+            "NJS": 489
+          },
+          "planned_departure": {
+            "BBS": 451,
+            "SZE": 434,
+            "XZE": 417,
+            "ZZ": 403,
+            "TZE": 392,
+            "QFE": 379,
+            "TA": 363,
+            "JW": 353,
+            "DY": 463,
+            "CZ": 477,
+            "NJS": 489
+          },
+          "planned_stops": [
+            "ZZ"
+          ],
+          "original_order": 34
+        },
+        {
+          "train_id": "G125",
+          "planned_entry_bd": 464.24257425742576,
+          "recorded_station_codes": [
+            "JW",
+            "TZE",
+            "SZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 463,
+            "SZE": 444,
+            "XZE": 427,
+            "ZZ": 413,
+            "TZE": 402,
+            "QFE": 389,
+            "TA": 373,
+            "JW": 364,
+            "DY": 475,
+            "CZ": 489,
+            "NJS": 504
+          },
+          "planned_departure": {
+            "BBS": 464,
+            "SZE": 447,
+            "XZE": 428,
+            "ZZ": 414,
+            "TZE": 405,
+            "QFE": 390,
+            "TA": 374,
+            "JW": 364,
+            "DY": 476,
+            "CZ": 492,
+            "NJS": 504
+          },
+          "planned_stops": [
+            "TZE",
+            "SZE",
+            "CZ"
+          ],
+          "original_order": 35
+        },
+        {
+          "train_id": "G9",
+          "planned_entry_bd": 473.89274447949526,
+          "recorded_station_codes": [
+            "JW",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 473,
+            "SZE": 456,
+            "XZE": 439,
+            "ZZ": 425,
+            "TZE": 416,
+            "QFE": 403,
+            "TA": 387,
+            "JW": 378,
+            "DY": 485,
+            "CZ": 499,
+            "NJS": 512
+          },
+          "planned_departure": {
+            "BBS": 474,
+            "SZE": 457,
+            "XZE": 440,
+            "ZZ": 426,
+            "TZE": 417,
+            "QFE": 404,
+            "TA": 388,
+            "JW": 378,
+            "DY": 486,
+            "CZ": 500,
+            "NJS": 512
+          },
+          "planned_stops": [],
+          "original_order": 36
+        },
+        {
+          "train_id": "G163",
+          "planned_entry_bd": 474.8708487084871,
+          "recorded_station_codes": [
+            "JW",
+            "TA",
+            "QFE",
+            "XZE",
+            "CZ",
+            "NJS"
+          ],
+          "planned_arrival": {
+            "BBS": 474,
+            "SZE": 457,
+            "XZE": 438,
+            "ZZ": 424,
+            "TZE": 415,
+            "QFE": 400,
+            "TA": 382,
+            "JW": 373,
+            "DY": 486,
+            "CZ": 500,
+            "NJS": 515
+          },
+          "planned_departure": {
+            "BBS": 475,
+            "SZE": 458,
+            "XZE": 441,
+            "ZZ": 425,
+            "TZE": 416,
+            "QFE": 403,
+            "TA": 385,
+            "JW": 373,
+            "DY": 487,
+            "CZ": 503,
+            "NJS": 515
+          },
+          "planned_stops": [
+            "TA",
+            "QFE",
+            "XZE",
+            "CZ"
+          ],
+          "original_order": 37
+        }
+      ]
+    }
+  ]
+}

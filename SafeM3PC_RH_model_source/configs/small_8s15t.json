@@ -1,0 +1,23 @@
+{
+  "case_id": "small_8s15t",
+  "description": "Eight-station, fifteen-train synthetic validation case",
+  "decision_epoch_min": 120,
+  "freeze_window_min": 10,
+  "time_step_min": 5,
+  "epsilon_values": [0.0, 0.01, 0.02, 0.03],
+  "standalone_scenario_output": {
+    "enabled_by_default": true,
+    "analysis_horizon_end_min": 480,
+    "extreme_s1_duration_default_min": 210,
+    "extreme_s1_duration_options_min": [180, 210],
+    "note": "A/B/C are solved independently; D is a stress test and is not assigned a probability in the main scenario tree."
+  },
+  "hdfs_threshold_min": 2,
+  "command_weights": {
+    "hold_change": 1,
+    "order_change": 1,
+    "station_change": 1,
+    "cancel": 1
+  },
+  "temporary_assumptions": true
+}

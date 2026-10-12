@@ -1,0 +1,34 @@
+{
+  "dataset_name": "High-speed railway public dataset",
+  "selection_dates": [
+    "2019-10-09",
+    "2019-12-30",
+    "2020-01-01",
+    "2020-01-10",
+    "2020-01-13",
+    "2020-01-25"
+  ],
+  "selection_stations": [
+    "Bengbunan Railway Station",
+    "Chuzhou Railway Station",
+    "Dingyuan Railway Station",
+    "Jinanxi Railway Station",
+    "Nanjingnan Railway Station",
+    "Qufudong Railway Station",
+    "Suzhoudong Railway Station",
+    "Taian Railway Station",
+    "Tengzhoudong Railway Station",
+    "Xuzhoudong Railway Station",
+    "Zaozhuang Railway Station"
+  ],
+  "operation_source": {
+    "original_filename": "high-speed trains operation data.csv",
+    "original_bytes": 365416910,
+    "original_sha256": "88782fcde913460995516378c4e76eaca6c7825e3292d2e71da70678f116f03b",
+    "original_rows": 2751713,
+    "included_rows": 2798,
+    "included_sha256": "f110030bafbd5340a3c8244eb35ffc18f6700d30598b4dc9af24ac8c78c5dbb9",
+    "role": "Exact source records used by the six-case extraction"
+  },
+  "redistribution_license": "No dataset license has been established from the supplied local files."
+}

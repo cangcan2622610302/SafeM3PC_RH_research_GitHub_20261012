@@ -1,0 +1,205 @@
+{
+  "algorithm": "full",
+  "status": "feasible_limit",
+  "selected_paths": {
+    "base|001": "base|001|complete",
+    "base|002": "base|002|hD|r180|0000",
+    "base|003": "base|003|hD|r190|0002",
+    "base|004": "base|004|hD|r200|0004",
+    "base|005": "base|005|hC|r210|0006",
+    "base|006": "base|006|hC|r230|0010",
+    "base|007": "base|007|hB|r235|0011",
+    "base|008": "base|008|hB|r240|0012",
+    "fast|001": "fast|001|complete",
+    "fast|002": "fast|002|hD|r150|0000",
+    "fast|003": "fast|003|hD|r160|0002",
+    "fast|004": "fast|004|hD|r170|0004",
+    "fast|005": "fast|005|hC|r185|0007",
+    "fast|006": "fast|006|hC|r190|0008",
+    "fast|007": "fast|007|hB|r195|0009",
+    "fast|008": "fast|008|hB|r235|0017",
+    "slow|001": "slow|001|complete",
+    "slow|002": "slow|002|hD|r210|0000",
+    "slow|003": "slow|003|hD|r220|0002",
+    "slow|004": "slow|004|hD|r250|0008",
+    "slow|005": "slow|005|hC|r230|0004",
+    "slow|006": "slow|006|hC|r275|0013",
+    "slow|007": "slow|007|hB|r240|0006",
+    "slow|008": "slow|008|hB|r280|0014"
+  },
+  "objective": {
+    "service_loss": 1077.5,
+    "hdfs_violations": 10.25,
+    "workload_total": 4.5,
+    "workload_peak": 2.25
+  },
+  "cancelled_trains": [],
+  "service_optimum": 1068.75,
+  "cancellation_bound": 0,
+  "stage_objectives": {
+    "service_optimum": 1068.75,
+    "service_final": 1077.5,
+    "cancellation_optimum": 0.0,
+    "command_total_optimum": 4.5,
+    "command_peak_optimum": 2.25,
+    "service_tie_break": 1077.5
+  },
+  "runtime_seconds": 2.0222073000004457,
+  "mip_gap": 0.3333333333333333,
+  "metadata": {
+    "scenario_ids": [
+      "fast",
+      "base",
+      "slow"
+    ],
+    "solver_backend": "highs",
+    "scenario_probability": {
+      "fast": 0.25,
+      "base": 0.5,
+      "slow": 0.25
+    },
+    "epsilon": 0.01,
+    "objective_mode": "command_only",
+    "restricted_service_optimum": 1077.5,
+    "service_reference_external": true,
+    "restricted_cancellation_count": 0,
+    "cancellation_stage_complete": true,
+    "cancellation_stage_skipped": true,
+    "stabilize_cancellations": true,
+    "cancellation_reference_external": true,
+    "nonanticipativity": true,
+    "variable_count": 987,
+    "constraint_count": 1389,
+    "path_variable_count": 858,
+    "build_seconds": 0.028746499998305808,
+    "stage_status": {
+      "command_total": 1
+    },
+    "stage_seconds": {
+      "command_total": 1.9875314000000799
+    },
+    "stage_bounds": {
+      "command_total": {
+        "incumbent": 4.5,
+        "dual_bound": 3.0,
+        "relative_gap": 0.3333333333333333,
+        "node_count": 1,
+        "scope": "full_path_pool"
+      }
+    },
+    "stage_messages": {
+      "command_total": "Time limit reached. (HiGHS Status 13: Time limit reached)"
+    },
+    "conflict_counts": {
+      "departure_cliques": 230,
+      "arrival_cliques": 17,
+      "section_order_cliques": 2,
+      "unique_section_rows": 249
+    },
+    "station_clearance_minutes": 0,
+    "de_orders": {
+      "fast": [
+        "002<003",
+        "002<004",
+        "002<005",
+        "002<006",
+        "002<007",
+        "002<008",
+        "003<004",
+        "003<005",
+        "003<006",
+        "003<007",
+        "003<008",
+        "004<005",
+        "004<006",
+        "004<007",
+        "004<008",
+        "005<006",
+        "005<007",
+        "005<008",
+        "006<007",
+        "006<008",
+        "007<008"
+      ],
+      "base": [
+        "002<003",
+        "002<004",
+        "002<005",
+        "002<006",
+        "002<007",
+        "002<008",
+        "003<004",
+        "003<005",
+        "003<006",
+        "003<007",
+        "003<008",
+        "004<005",
+        "004<006",
+        "004<007",
+        "004<008",
+        "005<006",
+        "005<007",
+        "005<008",
+        "006<007",
+        "006<008",
+        "007<008"
+      ],
+      "slow": [
+        "002<003",
+        "002<004",
+        "002<005",
+        "002<006",
+        "002<007",
+        "002<008",
+        "003<004",
+        "003<005",
+        "003<006",
+        "003<007",
+        "003<008",
+        "005<004",
+        "004<006",
+        "007<004",
+        "004<008",
+        "005<006",
+        "005<007",
+        "005<008",
+        "007<006",
+        "006<008",
+        "007<008"
+      ]
+    },
+    "de_reversals": {
+      "slow": [
+        "004/005",
+        "004/007",
+        "006/007"
+      ]
+    },
+    "hdfs_violation_pairs": {
+      "fast": [
+        "count=11"
+      ],
+      "base": [
+        "count=11"
+      ],
+      "slow": [
+        "count=8"
+      ]
+    },
+    "fixed_path_count": 0,
+    "allowed_path_count": null,
+    "refinement_kind": "full",
+    "candidate_width": 64,
+    "candidate_domain_count": 858,
+    "candidate_ranking_seconds": 3.9999940781854093e-07,
+    "candidate_returned": true,
+    "candidate_accepted": true,
+    "seed_retained": false,
+    "keep_seed": true,
+    "refinement_error": null,
+    "service_cap": 1079.4375,
+    "reference_service": 1068.75,
+    "reference_status": "optimal",
+    "optimality_scope": "full_path_pool_conditional"
+  }
+}

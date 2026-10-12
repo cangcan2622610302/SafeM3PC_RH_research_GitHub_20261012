@@ -1,0 +1,7 @@
+﻿train_count,seed,method,factor,level,width,epsilon,budget_seconds,common_reference,service,commands,peak,seconds,ranking_seconds,status,valid
+8,20260905,diverse,diverse,diverse,64,0.01,2.0,1068.75,1077.5,4.0,1.5,2.019156899999871,0.029054099999484606,feasible_limit,True
+8,20260905,rule,rule,rule,64,0.01,2.0,1068.75,1078.75,4.0,1.5,2.0284040000005916,0.001147000000855769,feasible_limit,True
+8,20260905,random,random,random,64,0.01,2.0,1068.75,1078.75,4.0,1.5,2.029843599999367,0.0012358000003587222,feasible_limit,True
+8,20260905,full,full,full,64,0.01,2.0,1068.75,1077.5,4.5,2.25,2.0222073000004457,3.9999940781854093e-07,feasible_limit,True
+8,20260905,no_prior,no_prior,no_prior,64,0.01,2.0,1068.75,1078.75,4.25,1.5,2.0191823999994085,0.02647169999909238,feasible_limit,True
+8,20260905,learned,learned,learned,64,0.01,2.0,1068.75,1078.75,4.0,1.5,2.023889699999927,0.024474899999404442,feasible_limit,True
